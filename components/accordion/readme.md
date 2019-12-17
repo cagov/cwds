@@ -42,4 +42,4 @@ Minimal markup using only the classes needed for js hooks and ARIA:
 </cwds-accordion>
 ```
 
-This content type is often 
+These markup examples include element id values: ```headingOne``` used in two places. Each instance of an accordion should have a unique id value
