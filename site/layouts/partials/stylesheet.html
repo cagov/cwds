@@ -11,7 +11,7 @@
 {{- end -}}
 
 {{- if (ne .Page.Layout "examples") }}
-{{- $targetDocsCssPath := printf "/docs/%s/assets/css/docs.css" .Site.Params.docs_version -}}
+{{- $targetDocsCssPath := printf "https://cagov.github.io/cwds/docs/%s/assets/css/docs.css" .Site.Params.docs_version -}}
 {{- $sassOptions := dict "targetPath" $targetDocsCssPath "precision" 6 -}}
 {{- $postcssOptions := dict "use" "autoprefixer" "noMap" true -}}
 
