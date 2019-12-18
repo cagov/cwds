@@ -1,6 +1,6 @@
 languageCode:           "en"
 title:                  "CA Web Design System"
-baseURL:                "https://cagov.github.io/"
+baseURL:                "https://cagov.github.io/cwds/"
 enableInlineShortcodes: true
 
 markup:
