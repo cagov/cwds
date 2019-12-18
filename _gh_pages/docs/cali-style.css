@@ -314,12 +314,20 @@ hr {
 }
 
 .official p {
-  background-image: url("../img/ca-flag.png");
+  background-image: url("https://alpha.ca.gov/img/ca-flag.png");
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 3%;
   margin: 0 0;
   padding: 0 0 0 50px;
+}
+
+.nav-cali-bg {
+  padding-left: 35px;
+  background-image: url(https://alpha.ca.gov/img/ca-light.png);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 10%;
 }
 
 .official img {

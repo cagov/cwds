@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://getbootstrap.com/docs/js-cali/accordion/readme/</loc>
+    <priority>0</priority>
+  </url>
+  <url>
     <loc>https://getbootstrap.com/docs/4.3/about/overview/</loc>
   </url>
   <url>
@@ -11,6 +15,9 @@
   </url>
   <url>
     <loc>https://getbootstrap.com/docs/4.3/components/alerts/</loc>
+  </url>
+  <url>
+    <loc>https://getbootstrap.com/docs/4.3/content-type-templates/all-services/</loc>
   </url>
   <url>
     <loc>https://getbootstrap.com/docs/4.3/extend/approach/</loc>
@@ -181,7 +188,13 @@
     <loc>https://getbootstrap.com/docs/4.3/components/navs/</loc>
   </url>
   <url>
+    <loc>https://getbootstrap.com/docs/4.3/content-type-templates/news/</loc>
+  </url>
+  <url>
     <loc>https://getbootstrap.com/docs/4.3/examples/offcanvas/</loc>
+  </url>
+  <url>
+    <loc>https://getbootstrap.com/docs/4.3/content-type-templates/organization/</loc>
   </url>
   <url>
     <loc>https://getbootstrap.com/docs/4.3/utilities/overflow/</loc>
@@ -211,6 +224,12 @@
     <loc>https://getbootstrap.com/docs/4.3/components/progress/</loc>
   </url>
   <url>
+    <loc>https://getbootstrap.com/docs/4.3/content-type-templates/quick-answer/</loc>
+  </url>
+  <url>
+    <loc>https://getbootstrap.com/docs/4.3/examples/quick-answer/</loc>
+  </url>
+  <url>
     <loc>https://getbootstrap.com/docs/4.3/forms/range/</loc>
   </url>
   <url>
@@ -227,6 +246,9 @@
   </url>
   <url>
     <loc>https://getbootstrap.com/docs/4.3/forms/select/</loc>
+  </url>
+  <url>
+    <loc>https://getbootstrap.com/docs/4.3/content-type-templates/service/</loc>
   </url>
   <url>
     <loc>https://getbootstrap.com/docs/4.3/utilities/shadows/</loc>
