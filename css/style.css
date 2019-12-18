@@ -414,3 +414,26 @@ a.wrimagecard:hover, .wrimagecard-topimage:hover {
   transition: color 0.3s ease;
 }
 
+
+
+
+/* bootstrap style utility classes */
+.d-none { display: none; }
+.py-20 {
+  padding: 20px 0;
+}
+
+
+/* accordion component specific classes */
+cwds-accordion .card-container {
+  height: 0px;
+  display: block;
+  transition: height .3s;
+}
+cwds-accordion .card-header {
+  cursor: pointer;
+}
+cwds-accordion .collapsed {
+  display: block;
+  overflow: hidden;
+}
