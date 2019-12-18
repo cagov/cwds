@@ -1,6 +1,6 @@
 languageCode:           "en"
-title:                  "Bootstrap"
-baseURL:                "https://getbootstrap.com"
+title:                  "CA Web Design System"
+baseURL:                "https://cagov.github.io/"
 enableInlineShortcodes: true
 
 markup:
@@ -20,7 +20,7 @@ disableKinds:           ["404", "taxonomy", "taxonomyTerm", "RSS"]
 blackfriday:
   fractions:            false
 
-publishDir:             "_gh_pages"
+publishDir:             "docs"
 
 module:
   mounts:
@@ -42,8 +42,8 @@ module:
       target:           static/favicon.ico
 
 params:
-  description:          "The most popular HTML, CSS, and JS library in the world."
-  authors:              "Mark Otto, Jacob Thornton, and Bootstrap contributors"
+  description:          "State of California Web Design System"
+  authors:              "Bootstrap, Luke Fretwell, Artem Khomishen"
   social_image_path:    /docs/4.3/assets/brand/bootstrap-social.png
   social_logo_path:     /docs/4.3/assets/brand/bootstrap-social-logo.png
 
@@ -51,8 +51,8 @@ params:
   current_ruby_version: "4.3.1"
   rfs_version:          "9.0.2"
   docs_version:         "4.3"
-  repo:                 "https://github.com/twbs/bootstrap"
-  twitter:              "getbootstrap"
+  repo:                 "https://github.com/cagov/cwds"
+  twitter:              "cadotgov"
   slack:                "https://bootstrap-slack.herokuapp.com/"
   opencollective:       "https://opencollective.com/bootstrap"
   blog:                 "https://blog.getbootstrap.com/"
