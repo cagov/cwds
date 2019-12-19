@@ -266,9 +266,8 @@ hr {
 }
 
 .navbar img {
-  width: 100%;
   height: auto;
-  max-width: 50px;
+  max-width: 30px;
 }
 
 /* Jumbotron */
