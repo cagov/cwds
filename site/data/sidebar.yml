@@ -1,3 +1,16 @@
+- title: Hella Templates
+  pages:
+    - title: Home
+    - title: Quick answer
+    - title: Step by step
+    - title: Calculator
+    - title: Service start
+    - title: News
+    - title: All News
+    - title: Service
+    - title: All services
+    - title: Organization
+
 - title: Layout
   pages:
     - title: Overview
@@ -47,16 +60,6 @@
     - title: Spinners
     - title: Toasts
     - title: Tooltips
-
-- title: Content Type Templates
-  pages:
-    - title: Quick answer
-    - title: News
-    - title: Service
-    - title: All services
-    - title: Organization
-    - title: Step by step
-    - title: Calculator
     
 - title: Utilities
   pages:
