@@ -1,7 +1,7 @@
 
 {{- $vendor := resources.Match "js/vendor/*.js" -}}
 {{- $js := resources.Match "js/*.js" -}}
-{{- $targetDocsJSPath := printf "/cwds/docs/%s/assets/js/docs.js" .Site.Params.docs_version -}}
+{{- $targetDocsJSPath := printf "//docs/%s/assets/js/docs.js" .Site.Params.docs_version -}}
 {{- $docsJs := append $js $vendor | resources.Concat $targetDocsJSPath -}}
 
 {{- if (eq (getenv "HUGO_ENV") "production") -}}
