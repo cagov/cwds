@@ -1,28 +1,32 @@
-<div class="official">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <p>Official California State Government</p>
-      </div>
-    </div>
-  </div>
-</div>
+<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar navbar-inverse px-0">
+  <div class="container-xl flex-wrap flex-md-nowrap py-0 px-3">
+    <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Bootstrap">
+      <img src="https://alpha.ca.gov/img/ca-light.png" class="logo-img" />
+    </a>
 
-<nav class="navbar navbar-inverse">
-  <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand nav-cali-bg navbar-left" href="index.html">CA.gov <sup>(ALPHA)</sup></a>
+    <div class="navbar-nav-scroll order-3 order-md-0 d-flex justify-content-center justify-content-md-start">
+      <ul class="navbar-nav bd-navbar-nav flex-row">
+        <li class="nav-item">
+          <a class="nav-link{{ if .IsHome }} active{{ end }}" href="/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link{{ if eq .Page.Layout "docs" }} active{{ end }}" href="/docs/{{ .Site.Params.docs_version }}/getting-started/introduction/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Docs</a>
+        </li>
+      </ul>
     </div>
-  </div>
-</nav>
 
-<div class="container-fluid jumbotron">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>California Web Design System</h1>
-      </div>
-    </div>
-  </div>
-</div>
+    <ul class="navbar-nav ml-sm-auto">
+      <li class="nav-item">
+        <a class="nav-link px-1 mx-1 py-3 my-n2" href="{{ .Site.Params.repo }}" target="_blank" rel="noopener" aria-label="GitHub">
+          {{ partial "icons/github.svg" (dict "class" "navbar-nav-svg" "width" "36" "height" "36") }}
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-1 mx-1 py-3 my-n2" href="https://twitter.com/{{ .Site.Params.twitter }}" target="_blank" rel="noopener" aria-label="Twitter">
+          {{ partial "icons/twitter.svg" (dict "class" "navbar-nav-svg" "width" "36" "height" "36") }}
+        </a>
+      </li>
+    </ul>
 
+  </div>
+</header>
