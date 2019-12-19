@@ -1094,6 +1094,9 @@
     .bd-placeholder-img-lg {
       font-size: 3.5rem; } }
 
+.hello {
+  color: #c00; }
+
 /* NEW Background .chroma { background-color: #f0f0f0; } */
 /* NEW Error .chroma .err { } */
 /* NEW LineTableTD .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; } */
