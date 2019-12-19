@@ -352,43 +352,17 @@
         </div>
 
         <main class="col-md-9 py-md-3 pl-md-5 bd-content" role="main">
-          <h1 class="bd-title" id="content">Carousel</h1>
-          <p class="bd-lead">A slideshow component for cycling through elements—images or slides of text—like a carousel.</p>
 
-          
+          <div class="row md-5">
 
-          
-            <strong class="d-block h3 mt-5 mb-3">On this page</strong>
-            <nav class="bd-toc mb-5" aria-label="Secondary navigation">
-              <nav id="TableOfContents">
-  <ul>
-    <li><a href="#how-it-works">How it works</a></li>
-    <li><a href="#example">Example</a>
-      <ul>
-        <li><a href="#slides-only">Slides only</a></li>
-        <li><a href="#with-controls">With controls</a></li>
-        <li><a href="#with-indicators">With indicators</a></li>
-        <li><a href="#with-captions">With captions</a></li>
-        <li><a href="#crossfade">Crossfade</a></li>
-        <li><a href="#individual-carousel-item-interval">Individual .carousel-item interval</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a>
-      <ul>
-        <li><a href="#via-data-attributes">Via data attributes</a></li>
-        <li><a href="#via-javascript">Via JavaScript</a></li>
-        <li><a href="#options">Options</a></li>
-        <li><a href="#methods">Methods</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#change-transition-duration">Change transition duration</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-            </nav>
-          
+            <div class="col-md-9">
 
-          <h2 id="how-it-works">How it works</h2>
+              <h1 class="bd-title" id="content">Carousel</h1>
+              <p class="bd-lead">A slideshow component for cycling through elements—images or slides of text—like a carousel.</p>
+    
+              
+    
+              <h2 id="how-it-works">How it works</h2>
 <p>The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators.</p>
 <p>In browsers where the <a href="https://www.w3.org/TR/page-visibility/">Page Visibility API</a> is supported, the carousel will avoid sliding when the webpage is not visible to the user (such as when the browser tab is inactive, the browser window is minimized, etc.).</p>
 <div class="bd-callout bd-callout-info">
@@ -863,6 +837,43 @@ The animation effect of this component is dependent on the <code>prefers-reduced
 </code></pre></div>
 <h3 id="change-transition-duration">Change transition duration</h3>
 <p>The transition duration of <code>.carousel-item</code> can be changed with the <code>$carousel-transition</code> Sass variable before compiling or custom styles if you're using the compiled CSS. If multiple transitions are applied, make sure the transform transition is defined first (eg. <code>transition: transform 2s ease, opacity .5s ease-out</code>).</p>
+
+            </div>
+  
+            
+            <div class="col-md-3">
+              <nav class="bd-toc mb-5" aria-label="Secondary navigation">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#how-it-works">How it works</a></li>
+    <li><a href="#example">Example</a>
+      <ul>
+        <li><a href="#slides-only">Slides only</a></li>
+        <li><a href="#with-controls">With controls</a></li>
+        <li><a href="#with-indicators">With indicators</a></li>
+        <li><a href="#with-captions">With captions</a></li>
+        <li><a href="#crossfade">Crossfade</a></li>
+        <li><a href="#individual-carousel-item-interval">Individual .carousel-item interval</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a>
+      <ul>
+        <li><a href="#via-data-attributes">Via data attributes</a></li>
+        <li><a href="#via-javascript">Via JavaScript</a></li>
+        <li><a href="#options">Options</a></li>
+        <li><a href="#methods">Methods</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#change-transition-duration">Change transition duration</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+              </nav>
+            </div>
+            
+  
+
+          </div>
 
         </main>
       </div>

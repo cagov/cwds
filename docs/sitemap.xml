@@ -17,7 +17,7 @@
     <loc>http://cwds.dev/docs/4.3/components/alerts/</loc>
   </url>
   <url>
-    <loc>http://cwds.dev/docs/4.3/content-type-templates/all-services/</loc>
+    <loc>http://cwds.dev/docs/4.3/templates/all-services/</loc>
   </url>
   <url>
     <loc>http://cwds.dev/docs/4.3/extend/approach/</loc>
@@ -188,13 +188,13 @@
     <loc>http://cwds.dev/docs/4.3/components/navs/</loc>
   </url>
   <url>
-    <loc>http://cwds.dev/docs/4.3/content-type-templates/news/</loc>
+    <loc>http://cwds.dev/docs/4.3/templates/news/</loc>
   </url>
   <url>
     <loc>http://cwds.dev/docs/4.3/examples/offcanvas/</loc>
   </url>
   <url>
-    <loc>http://cwds.dev/docs/4.3/content-type-templates/organization/</loc>
+    <loc>http://cwds.dev/docs/4.3/templates/organization/</loc>
   </url>
   <url>
     <loc>http://cwds.dev/docs/4.3/utilities/overflow/</loc>
@@ -224,10 +224,10 @@
     <loc>http://cwds.dev/docs/4.3/components/progress/</loc>
   </url>
   <url>
-    <loc>http://cwds.dev/docs/4.3/content-type-templates/quick-answer/</loc>
+    <loc>http://cwds.dev/docs/4.3/examples/quick-answer/</loc>
   </url>
   <url>
-    <loc>http://cwds.dev/docs/4.3/examples/quick-answer/</loc>
+    <loc>http://cwds.dev/docs/4.3/templates/quick-answer/</loc>
   </url>
   <url>
     <loc>http://cwds.dev/docs/4.3/forms/range/</loc>
@@ -248,7 +248,7 @@
     <loc>http://cwds.dev/docs/4.3/forms/select/</loc>
   </url>
   <url>
-    <loc>http://cwds.dev/docs/4.3/content-type-templates/service/</loc>
+    <loc>http://cwds.dev/docs/4.3/templates/service/</loc>
   </url>
   <url>
     <loc>http://cwds.dev/docs/4.3/utilities/shadows/</loc>

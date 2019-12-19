@@ -352,29 +352,17 @@
         </div>
 
         <main class="col-md-9 py-md-3 pl-md-5 bd-content" role="main">
-          <h1 class="bd-title" id="content">Validation</h1>
-          <p class="bd-lead">Provide valuable, actionable feedback to your users with HTML5 form validation, via browser default behaviors or custom styles and JavaScript.</p>
 
-          
+          <div class="row md-5">
 
-          
-            <strong class="d-block h3 mt-5 mb-3">On this page</strong>
-            <nav class="bd-toc mb-5" aria-label="Secondary navigation">
-              <nav id="TableOfContents">
-  <ul>
-    <li><a href="#how-it-works">How it works</a></li>
-    <li><a href="#custom-styles">Custom styles</a></li>
-    <li><a href="#browser-defaults">Browser defaults</a></li>
-    <li><a href="#server-side">Server side</a></li>
-    <li><a href="#supported-elements">Supported elements</a></li>
-    <li><a href="#tooltips">Tooltips</a></li>
-    <li><a href="#customizing">Customizing</a></li>
-  </ul>
-</nav>
-            </nav>
-          
+            <div class="col-md-9">
 
-          <div class="bd-callout bd-callout-warning">
+              <h1 class="bd-title" id="content">Validation</h1>
+              <p class="bd-lead">Provide valuable, actionable feedback to your users with HTML5 form validation, via browser default behaviors or custom styles and JavaScript.</p>
+    
+              
+    
+              <div class="bd-callout bd-callout-warning">
 We currently recommend using custom validation styles, as native browser default validation messages are not consistently exposed to assistive technologies in all browsers (most notably, Chrome on desktop and mobile).
 </div>
 
@@ -1047,6 +1035,29 @@ We currently recommend using custom validation styles, as native browser default
 </span><span class="c1"></span><span class="k">@each</span> <span class="err">$</span><span class="nt">state</span><span class="o">,</span> <span class="err">$</span><span class="nt">data</span> <span class="nt">in</span> <span class="err">$</span><span class="nt">form-validation-states</span> <span class="p">{</span>
   <span class="k">@include</span><span class="nd"> form-validation-state</span><span class="p">(</span><span class="nv">$state</span><span class="o">,</span> <span class="nf">map-get</span><span class="p">(</span><span class="nv">$data</span><span class="o">,</span> <span class="no">color</span><span class="p">)</span><span class="o">,</span> <span class="nf">map-get</span><span class="p">(</span><span class="nv">$data</span><span class="o">,</span> <span class="no">icon</span><span class="p">))</span><span class="p">;</span>
 <span class="p">}</span></code></pre></div>
+
+            </div>
+  
+            
+            <div class="col-md-3">
+              <nav class="bd-toc mb-5" aria-label="Secondary navigation">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#how-it-works">How it works</a></li>
+    <li><a href="#custom-styles">Custom styles</a></li>
+    <li><a href="#browser-defaults">Browser defaults</a></li>
+    <li><a href="#server-side">Server side</a></li>
+    <li><a href="#supported-elements">Supported elements</a></li>
+    <li><a href="#tooltips">Tooltips</a></li>
+    <li><a href="#customizing">Customizing</a></li>
+  </ul>
+</nav>
+              </nav>
+            </div>
+            
+  
+
+          </div>
 
         </main>
       </div>

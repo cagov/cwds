@@ -352,38 +352,17 @@
         </div>
 
         <main class="col-md-9 py-md-3 pl-md-5 bd-content" role="main">
-          <h1 class="bd-title" id="content">Checks</h1>
-          <p class="bd-lead">Create consistent cross-browser and cross-device checkboxes and radios with our completely rewritten checks component.</p>
 
-          
+          <div class="row md-5">
 
-          
-            <strong class="d-block h3 mt-5 mb-3">On this page</strong>
-            <nav class="bd-toc mb-5" aria-label="Secondary navigation">
-              <nav id="TableOfContents">
-  <ul>
-    <li><a href="#approach">Approach</a></li>
-    <li><a href="#checks">Checks</a>
-      <ul>
-        <li><a href="#indeterminate">Indeterminate</a></li>
-        <li><a href="#disabled">Disabled</a></li>
-      </ul>
-    </li>
-    <li><a href="#radios">Radios</a>
-      <ul>
-        <li><a href="#disabled-1">Disabled</a></li>
-      </ul>
-    </li>
-    <li><a href="#switches">Switches</a></li>
-    <li><a href="#default-stacked">Default (stacked)</a></li>
-    <li><a href="#inline">Inline</a></li>
-    <li><a href="#without-labels">Without labels</a></li>
-  </ul>
-</nav>
-            </nav>
-          
+            <div class="col-md-9">
 
-          <h2 id="approach">Approach</h2>
+              <h1 class="bd-title" id="content">Checks</h1>
+              <p class="bd-lead">Create consistent cross-browser and cross-device checkboxes and radios with our completely rewritten checks component.</p>
+    
+              
+    
+              <h2 id="approach">Approach</h2>
 <p>Browser default checkboxes and radios are replaced with the help of <code>.form-check</code>, a series of classes for both input types that improves the layout and behavior of their HTML elements, that provide greater customization and cross browser consistency. Checkboxes are for selecting one or several options in a list, while radios are for selecting one option from many.</p>
 <p>Structurally, our <code>&lt;input&gt;</code>s and <code>&lt;label&gt;</code>s are sibling elements as opposed to an <code>&lt;input&gt;</code> within a <code>&lt;label&gt;</code>. This is slightly more verbose as you must specify <code>id</code> and <code>for</code> attributes to relate the <code>&lt;input&gt;</code> and <code>&lt;label&gt;</code>. We use the sibling selector (<code>~</code>) for all our <code>&lt;input&gt;</code> states, like <code>:checked</code> or <code>:disabled</code>. When combined with the <code>.form-check-label</code> class, we can easily style the text for each item based on the <code>&lt;input&gt;</code>'s state.</p>
 <p>Our checks use custom Bootstrap icons to indicate checked or indeterminate states.</p>
@@ -676,6 +655,38 @@
 <span class="p">&lt;</span><span class="nt">div</span><span class="p"></span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;radioNoLabel&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;radioNoLabel1&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">aria-label</span><span class="o">=</span><span class="s">&#34;...&#34;</span><span class="p"></span><span class="p">&gt;</span>
 <span class="p">&lt;</span><span class="p">/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre></div>
+
+            </div>
+  
+            
+            <div class="col-md-3">
+              <nav class="bd-toc mb-5" aria-label="Secondary navigation">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#approach">Approach</a></li>
+    <li><a href="#checks">Checks</a>
+      <ul>
+        <li><a href="#indeterminate">Indeterminate</a></li>
+        <li><a href="#disabled">Disabled</a></li>
+      </ul>
+    </li>
+    <li><a href="#radios">Radios</a>
+      <ul>
+        <li><a href="#disabled-1">Disabled</a></li>
+      </ul>
+    </li>
+    <li><a href="#switches">Switches</a></li>
+    <li><a href="#default-stacked">Default (stacked)</a></li>
+    <li><a href="#inline">Inline</a></li>
+    <li><a href="#without-labels">Without labels</a></li>
+  </ul>
+</nav>
+              </nav>
+            </div>
+            
+  
+
+          </div>
 
         </main>
       </div>
