@@ -1,3 +1,11 @@
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {
+	text-decoration: none !important;
+}
+p, li, .list-group-item {
+	font-size: 16px !important;
+}
+
+
 /* Public Sans */
 
 @font-face {
@@ -119,9 +127,7 @@ hr {
 
 .card {
   position: relative;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
@@ -266,8 +272,10 @@ hr {
 }
 
 .navbar img {
+  width: auto;
   height: auto;
   max-width: 30px;
+  max-height: 50px;
 }
 
 /* Jumbotron */
@@ -296,7 +304,7 @@ hr {
 }
 
 .jumbotron-reverse, .jumbotron-reverse h1 {
-  color: #00000;
+  color: #000;
 }
 
 .jumbotron-reverse {
@@ -315,12 +323,20 @@ hr {
 }
 
 .official p {
-  background-image: url("../img/ca-flag.png");
+  background-image: url("https://alpha.ca.gov/img/ca-flag.png");
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 3%;
   margin: 0 0;
   padding: 0 0 0 50px;
+}
+
+.nav-cali-bg {
+  padding-left: 35px;
+  background-image: url(https://alpha.ca.gov/img/ca-light.png);
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 10%;
 }
 
 .official img {
@@ -443,4 +459,10 @@ cwds-accordion .card-header {
 cwds-accordion .collapsed {
   display: block;
   overflow: hidden;
+}
+
+
+/* fix bootstrap nav */
+li.active ul.nav.bd-sidenav {
+  display: block;
 }
