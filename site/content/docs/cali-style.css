@@ -453,4 +453,17 @@ cwds-accordion .collapsed {
   overflow: hidden;
 }
 
+/* News */
+
+.news h1 {
+  font-size: 50px;
+  padding-top: 15px;
+}
+.byline {
+  border-bottom: 1px solid #efefef;
+  color: #666;
+  margin-bottom: 20px;
+  padding: 10px 0 30px 0;
+}
+
 /*# sourceMappingURL=cali-style.css.map */
