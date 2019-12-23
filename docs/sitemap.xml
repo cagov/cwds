@@ -230,7 +230,16 @@
     <loc>http://cwds.dev/docs/4.3/examples/quick-answer/</loc>
   </url>
   <url>
+    <loc>http://cwds.dev/docs/4.3/templates/calculator/</loc>
+  </url>
+  <url>
     <loc>http://cwds.dev/docs/4.3/templates/quick-answer/</loc>
+  </url>
+  <url>
+    <loc>http://cwds.dev/docs/4.3/templates/service-start/</loc>
+  </url>
+  <url>
+    <loc>http://cwds.dev/docs/4.3/templates/step-by-step/</loc>
   </url>
   <url>
     <loc>http://cwds.dev/docs/4.3/forms/range/</loc>
