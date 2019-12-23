@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Introduction
-description: Get started with Bootstrap, the world's most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.
+description: The design system for Alpha.CA.gov is a theme built on top of Bootstrap. Taking a cue from the direction of the still under development version 5 of Bootstrap which drops javascript dependencies like jquery the few components that require javascript used in this system are written to be as lean as possible.
 group: getting-started
 aliases:
   - "/docs/4.3/getting-started/"
@@ -10,68 +10,20 @@ aliases:
 toc: true
 ---
 
-## Quick start
-
-Looking to quickly add Bootstrap to your project? Use BootstrapCDN, provided for free by the folks at StackPath. Using a package manager or need to download the source files? [Head to the downloads page]({{< docsref "/getting-started/download" >}}).
+```This project is still very much under construction and is expected to change drastically before release Q1 2020```
 
 ### CSS
 
 Copy-paste the stylesheet `<link>` into your `<head>` before all other stylesheets to load our CSS.
 
 {{< highlight html >}}
-<link rel="stylesheet" href="{{< param "cdn.css" >}}" integrity="{{< param "cdn.css_hash" >}}" crossorigin="anonymous">
+<link rel="stylesheet" href="{{< param "cdn.css" >}}" crossorigin="anonymous">
 {{< /highlight >}}
 
-### JS
 
-Many of our components require the use of JavaScript to function. Specifically, they require our own JavaScript plugins and [Popper.js](https://popper.js.org/). Place the following `<script>`s near the end of your pages, right before the closing `</body>` tag, to enable them. Popper.js must come first, and then our JavaScript plugins.
+## Starter templates
 
-{{< highlight html >}}
-<script src="{{< param "cdn.popper" >}}" integrity="{{< param "cdn.popper_hash" >}}" crossorigin="anonymous"></script>
-<script src="{{< param "cdn.js" >}}" integrity="{{< param "cdn.js_hash" >}}" crossorigin="anonymous"></script>
-{{< /highlight >}}
-
-If you use `<script type="module">`, please refer to our [using Bootstrap as a module]({{< docsref "/getting-started/javascript#using-bootstrap-as-a-module" >}}) section.
-
-Curious which components explicitly require our JavaScript and Popper.js? Click the show components link below. If you're at all unsure about the general page structure, keep reading for an example page template.
-
-Our `bootstrap.bundle.js` and `bootstrap.bundle.min.js` include [Popper](https://popper.js.org/). For more information about what's included in Bootstrap, please see our [contents]({{< docsref "/getting-started/contents#precompiled-bootstrap" >}}) section.
-
-{{< partial "getting-started/components-requiring-javascript" >}}
-
-## Starter template
-
-Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Put it all together and your pages should look like this:
-
-{{< highlight html >}}
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{< param "cdn.css" >}}" integrity="{{< param "cdn.css_hash" >}}" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-
-    <!-- Optional JavaScript -->
-    <!-- Popper.js first, then Bootstrap JS -->
-    <script src="{{< param "cdn.popper" >}}" integrity="{{< param "cdn.popper_hash" >}}" crossorigin="anonymous"></script>
-    <script src="{{< param "cdn.js" >}}" integrity="{{< param "cdn.js_hash" >}}" crossorigin="anonymous"></script>
-  </body>
-</html>
-{{< /highlight >}}
-
-That's all you need for overall page requirements. Visit the [Layout docs]({{< docsref "/layout/overview" >}}) or [our official examples]({{< docsref "/examples" >}}) to start laying out your site's content and components.
-
-## Important globals
-
-Bootstrap employs a handful of important global styles and settings that you'll need to be aware of when using it, all of which are almost exclusively geared towards the *normalization* of cross browser styles. Let's dive in.
+View the templates section for examples of page templates
 
 ### HTML5 doctype
 
@@ -114,7 +66,7 @@ Learn more about [box model and sizing at CSS Tricks](https://css-tricks.com/box
 
 For improved cross-browser rendering, we use [Reboot]({{< docsref "/content/reboot" >}}) to correct inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements.
 
-## Community
+## Bootstrap Community
 
 Stay up to date on the development of Bootstrap and reach out to the community with these helpful resources.
 
