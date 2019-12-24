@@ -32,6 +32,7 @@ p, li, .list-group-item {
     url("fonts/publicsans-regular-webfont.woff") format("woff");
 }
 
+
 /* General */
 
 body {
@@ -465,4 +466,14 @@ cwds-accordion .collapsed {
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {
   display: block;
+}
+
+
+
+/* Temporary CLasses */
+
+.btn-bd-primary:hover, .btn-bd-primary:active {
+    color: #fff;
+    background-color: #1d1a16;
+    border-color: #1d1a16;
 }

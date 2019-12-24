@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://cwds.dev/docs/cali/fonts/publicsans-black-demo/</loc>
+    <priority>0</priority>
+  </url>
+  <url>
+    <loc>http://cwds.dev/docs/cali/fonts/publicsans-bold-demo/</loc>
+    <priority>0</priority>
+  </url>
+  <url>
+    <loc>http://cwds.dev/docs/cali/fonts/publicsans-extrabold-demo/</loc>
+    <priority>0</priority>
+  </url>
+  <url>
+    <loc>http://cwds.dev/docs/cali/fonts/publicsans-extralight-demo/</loc>
+    <priority>0</priority>
+  </url>
+  <url>
+    <loc>http://cwds.dev/docs/cali/fonts/publicsans-light-demo/</loc>
+    <priority>0</priority>
+  </url>
+  <url>
+    <loc>http://cwds.dev/docs/cali/fonts/publicsans-medium-demo/</loc>
+    <priority>0</priority>
+  </url>
+  <url>
+    <loc>http://cwds.dev/docs/cali/fonts/publicsans-regular-demo/</loc>
+    <priority>0</priority>
+  </url>
+  <url>
+    <loc>http://cwds.dev/docs/cali/fonts/publicsans-semibold-demo/</loc>
+    <priority>0</priority>
+  </url>
+  <url>
+    <loc>http://cwds.dev/docs/cali/fonts/publicsans-thin-demo/</loc>
+    <priority>0</priority>
+  </url>
+  <url>
     <loc>http://cwds.dev/docs/cali/js/accordion/readme/</loc>
     <priority>0</priority>
   </url>
