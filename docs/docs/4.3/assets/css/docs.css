@@ -1398,8 +1398,8 @@ hr {
   font-family: "Public Sans ExtraBold", sans-serif; }
 
 .navbar-inverse, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-  background-color: #232019;
-  border-color: #232019; }
+  background-color: #1d2021;
+  border-color: #1d2021; }
 
 .navbar-inverse .navbar-toggle {
   border-color: #fff; }
@@ -1483,7 +1483,7 @@ hr {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #000; }
+  background-color: #1d2021; }
 
 .alphabar p {
   color: #fff;
@@ -1590,6 +1590,18 @@ a.btn {
   border: 5px #343a40 solid;
   background: #343a40;
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }
+
+.jumbotron {
+  background: #212527; }
+
+.text-primary {
+  color: #212527 !important; }
+
+.alpha-footer {
+  background: #e9ecef;
+  background-color: #e9ecef;
+  border-bottom-width: 1px;
+  border-color: #dcdfe0; }
 
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {
