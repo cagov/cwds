@@ -44,8 +44,8 @@ module:
 params:
   description:          "State of California Web Design System"
   authors:              "Bootstrap, Luke Fretwell, Artem Khomishen"
-  social_image_path:    /docs/4.3/assets/brand/bootstrap-social.png
-  social_logo_path:     /docs/4.3/assets/brand/bootstrap-social-logo.png
+  social_image_path:    /docs/4.3/assets/img/bear-logo.png
+  social_logo_path:     /docs/4.3/assets/img/bear-logo.png
 
   current_version:      "4.3.1"
   current_ruby_version: "4.3.1"
