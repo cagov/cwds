@@ -1,9 +1,6 @@
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {
 	text-decoration: none !important;
 }
-p, li, .list-group-item {
-	font-size: 16px !important;
-}
 
 
 /* Public Sans */
@@ -31,6 +28,7 @@ p, li, .list-group-item {
     url("fonts/publicsans-regular-webfont.woff2") format("woff2"), 
     url("fonts/publicsans-regular-webfont.woff") format("woff");
 }
+
 
 /* General */
 
@@ -62,7 +60,7 @@ h3 {
 }
 
 p, li, .list-group-item {
-  font-size: 18px;
+  font-size: auto !important;
 }
 
 a.list-group-item {
@@ -88,7 +86,7 @@ a.btn {
 }
 
 a.btn {
-  background: #fff;
+  background: #ccc;
   color: #000;
   border: 1px solid #f1f1f1;
   text-decoration: none;
@@ -250,8 +248,8 @@ hr {
 }
 
 .navbar-inverse, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-  background-color: #000;
-  border-color: #000;
+  background-color: #232019;
+  border-color: #232019;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -281,8 +279,8 @@ hr {
 /* Jumbotron */
 
 .jumbotron {
-  background: #000;
-  border-bottom: 1px solid #f1f1f1;
+  background: #1d1a16;
+  border-bottom: 1px solid #1d1a16;
   margin-bottom: 30px;
   padding-bottom: 50px;
   padding-top: 50px;
@@ -460,6 +458,45 @@ cwds-accordion .collapsed {
   display: block;
   overflow: hidden;
 }
+
+
+/* fix bootstrap nav */
+li.active ul.nav.bd-sidenav {
+  display: block;
+}
+
+
+
+/* Temporary CSS Classes Pre-SCSS*/
+
+.btn-bd-primary:hover, .btn-bd-primary:active {
+    color: #fff;
+    background-color: #1d1a16;
+    border-color: #1d1a16;
+}
+
+a.btn {
+    background: #005279;
+    color: #fff;
+}
+
+.search-btn {
+
+    border: 5px #015179 solid;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: #015179;
+}
+
+.search-btn:hover {
+
+    border: 5px #343a40 solid;
+	background: #343a40;
+	box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5)
+  
+}
+
+
 
 
 /* fix bootstrap nav */
