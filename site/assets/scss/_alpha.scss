@@ -528,6 +528,15 @@ a.btn {
     text-align: center;
 }
 
+/* Step by Step List expandable classes */
+cwds-step-list li .details {
+  height: 0px;
+  overflow: hidden;
+  transition: height .3s;
+}
+cwds-step-list li {
+  cursor: pointer;
+}
 
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {

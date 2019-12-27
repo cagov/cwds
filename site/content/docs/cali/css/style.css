@@ -438,7 +438,6 @@ hr {
 }
 
 /* accordion component specific classes */
-
 cwds-accordion .card-container {
   height: 0px;
   display: block;
@@ -460,7 +459,15 @@ li.active ul.nav.bd-sidenav {
   display: block;
 }
 
-
+/* Step by Step List expandable classes */
+cwds-step-list li .details {
+  height: 0px;
+  overflow: hidden;
+  transition: height .3s;
+}
+cwds-step-list li {
+  cursor: pointer;
+}
 
 /* Temporary CSS Classes Pre-SCSS*/
 

@@ -23,15 +23,14 @@ class CWDSStepList extends HTMLElement {
     this.expandTargets.forEach( (item) => {
       item.addEventListener('click', this.listen)
     })
-    this.expandButton
   }
 
   listen() {
-    let detailEl = this.querySelector('.details');
-    if(detailEl.style.display == 'block') {
-      detailEl.style.display = 'none';
+    let detailsEl = this.querySelector('.details');
+    if(!detailsEl.style.height || detailsEl.style.height.indexOf('0px') == 0) {
+      detailsEl.style.height = detailsEl.scrollHeight + 'px';
     } else {
-      detailEl.style.display = 'block';
+      detailsEl.style.height = '0px';
     }
   }
 }
