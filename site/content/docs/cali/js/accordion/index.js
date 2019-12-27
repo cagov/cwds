@@ -15,3 +15,25 @@ class CWDSAccordion extends HTMLElement {
   }
 }
 window.customElements.define('cwds-accordion', CWDSAccordion);
+
+
+class CWDSStepList extends HTMLElement {
+  connectedCallback() {
+    this.expandTargets = this.querySelectorAll('li');
+    this.expandTargets.forEach( (item) => {
+      item.addEventListener('click', this.listen)
+    })
+    this.expandButton
+  }
+
+  listen() {
+    let detailEl = this.querySelector('.details');
+    if(detailEl.style.display == 'block') {
+      detailEl.style.display = 'none';
+    } else {
+      detailEl.style.display = 'block';
+    }
+  }
+}
+window.customElements.define('cwds-step-list', CWDSStepList);
+

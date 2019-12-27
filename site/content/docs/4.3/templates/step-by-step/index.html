@@ -5,7 +5,17 @@ title: Quick Answer example
 
 <link href="/docs/4.3/assets/css/docs.css" rel="stylesheet" />
 <link href="https://california.azureedge.net/cdt/statetemplate/6.0.0/css/cagov.font-only.min.css" rel="stylesheet" />
-
+<style>
+.mt-20 {
+  margin-top: 20px;
+}
+cwds-step-list li .details {
+  display: none;
+}
+cwds-step-list li {
+  cursor: pointer;
+}
+</style>
 <div class="official">
   <div class="container">
     <div class="row">
@@ -38,20 +48,34 @@ title: Quick Answer example
   <div class="row">
     <div class="col-md-12">
       <h2>Page templates</h2>
-		
-		<ul class="list-group list-group-flush">
-		  <li class="list-group-item lead"><span class="list-number">1</span> Decide what type of contractor you need</li>
-		  <li class="list-group-item lead"><span class="list-number">2</span> Check if you need a building permit</li>
-		  <li class="list-group-item lead"><span class="list-number">3</span> Find at least three licensed contractors</li>
-		  <li class="list-group-item lead"><span class="list-number">4</span> Look up their licenses</li>
-		  <li class="list-group-item lead"><span class="list-number">5</span> Get at least three price estimates in writing</li>
-		  <li class="list-group-item lead"><span class="list-number">6</span> Ask your contractor to share their insurance</li>
-		  <li class="list-group-item lead"><span class="list-number">7</span> Contact their references</li>
-		  <li class="list-group-item lead"><span class="list-number">8</span> Ask to see your contractor’s pocket license</li>
-		  <li class="list-group-item lead"><span class="list-number">9</span> Sign a contract</li>
-		  <li class="list-group-item lead"><span class="list-number">10</span> Pay no more than $1,000 or 10 percent down, whichever is less</li>
-		</ul>
-     
+
+      <cwds-step-list>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item lead"><span class="list-number">1</span> Decide what type of contractor you need
+            <div class="details mt-20">More info for the page step 1 goes here which can be collapsed by default or expanded to start if the class expanded is added</div>
+          </li>
+          <li class="list-group-item lead"><span class="list-number">2</span> Check if you need a building permit
+            <div class="details mt-20">More info for the page step 1 goes here which can be collapsed by default or expanded to start if the class expanded is added</div>
+          </li>
+          <li class="list-group-item lead"><span class="list-number">3</span> Find at least three licensed contractors
+            <div class="details mt-20">More info for the page step 1 goes here which can be collapsed by default or expanded to start if the class expanded is added</div>
+          </li>
+          <li class="list-group-item lead"><span class="list-number">4</span> Look up their licenses
+            <div class="details mt-20">More info for the page step 1 goes here which can be collapsed by default or expanded to start if the class expanded is added</div>
+          </li>
+          <li class="list-group-item lead"><span class="list-number">5</span> Get at least three price estimates in
+            writing</li>
+          <li class="list-group-item lead"><span class="list-number">6</span> Ask your contractor to share their insurance
+          </li>
+          <li class="list-group-item lead"><span class="list-number">7</span> Contact their references</li>
+          <li class="list-group-item lead"><span class="list-number">8</span> Ask to see your contractor’s pocket license
+          </li>
+          <li class="list-group-item lead"><span class="list-number">9</span> Sign a contract</li>
+          <li class="list-group-item lead"><span class="list-number">10</span> Pay no more than $1,000 or 10 percent down,
+            whichever is less</li>
+        </ul>
+      </cwds-step-list>
+
     </div>
   </div>
 </div>
