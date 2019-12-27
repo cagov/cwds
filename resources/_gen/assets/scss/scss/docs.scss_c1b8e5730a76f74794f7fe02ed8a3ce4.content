@@ -1603,6 +1603,18 @@ a.btn {
   border-bottom-width: 1px;
   border-color: #dcdfe0; }
 
+/* Step by Step*/
+.list-number {
+  position: relative;
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #cccccc;
+  text-align: center; }
+
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {
   display: block; }
