@@ -27,6 +27,11 @@ class CWDSStepList extends HTMLElement {
 
   listen() {
     let detailsEl = this.querySelector('.details');
+    if(this.classList.contains('list-open')) {
+      this.classList.remove('list-open')
+    } else {
+      this.classList.add('list-open')
+    }
     if(!detailsEl.style.height || detailsEl.style.height.indexOf('0px') == 0) {
       detailsEl.style.height = detailsEl.scrollHeight + 'px';
     } else {
