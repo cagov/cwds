@@ -1609,7 +1609,7 @@ a.btn {
   display: inline-block;
   width: 33px;
   height: 33px;
-  border-width: 2px;
+  border-width: 3px;
   border-style: solid;
   border-radius: 50%;
   border-color: #cccccc;
@@ -1622,7 +1622,26 @@ cwds-step-list li .details {
   transition: height .3s; }
 
 cwds-step-list li {
-  cursor: pointer; }
+  cursor: pointer;
+  border-left: solid #e8e8e8 !important;
+  border-left-width: 4px !important;
+  margin-left: 10px !important; }
+
+cwds-step-list li.list-open {
+  border-left: solid #015179 !important;
+  border-left-width: 4px !important; }
+
+cwds-step-list li.list-open .list-number {
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #015179;
+  text-align: center;
+  font-weight: 500 !important; }
+
+cwds-step-list li .step-interior {
+  padding-left: 40px;
+  display: block;
+  font-size: initial; }
 
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {
