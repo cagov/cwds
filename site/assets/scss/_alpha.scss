@@ -565,6 +565,13 @@ cwds-step-list li .step-interior {
 	
 }
 
+cwds-step-list li .unstyled {
+	
+	border-left-width: 0!important;
+    border: none!important;
+	list-style-type: none;
+}
+
 
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {

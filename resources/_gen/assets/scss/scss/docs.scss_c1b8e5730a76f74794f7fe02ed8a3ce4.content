@@ -1643,6 +1643,11 @@ cwds-step-list li .step-interior {
   display: block;
   font-size: initial; }
 
+cwds-step-list li .unstyled {
+  border-left-width: 0 !important;
+  border: none !important;
+  list-style-type: none; }
+
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {
   display: block; }
