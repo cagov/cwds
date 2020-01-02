@@ -1,4 +1,4 @@
-# CA Web Design System
+# CA Design System
 
 ## based on Bootstrap
 
