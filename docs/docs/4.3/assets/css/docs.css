@@ -1208,9 +1208,6 @@
     .bd-placeholder-img-lg {
       font-size: 3.5rem; } }
 
-.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {
-  text-decoration: none !important; }
-
 /* Public Sans */
 @font-face {
   font-family: "Public Sans Extra Bold";
@@ -1227,7 +1224,6 @@
   font-style: normal;
   src: url("fonts/publicsans-regular-webfont.woff2") format("woff2"), url("fonts/publicsans-regular-webfont.woff") format("woff"); }
 
-/* General */
 body {
   color: #000;
   font-family: "Public Sans", sans-serif; }
@@ -1299,6 +1295,9 @@ a.btn-dark {
   color: #fff;
   background-color: #005279;
   border-color: #005279; }
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {
+  text-decoration: none !important; }
 
 a.list-group-item, a.list-group-item:visited {
   color: #000;

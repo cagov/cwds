@@ -1,126 +1,16 @@
+
+
+
+
+
+@import 'fonts';
+@import 'general';
+@import 'buttons';
+
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {
 	text-decoration: none !important;
 }
 
-
-/* Public Sans */
-
-@font-face {
-  font-family: "Public Sans Extra Bold";
-  font-style: normal;
-  src: 
-    url("fonts/publicsans-extrabold-webfont.woff2") format("woff2"), 
-    url("fonts/publicsans-extrabold-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Public Sans Light";
-  font-style: normal;
-  src: 
-    url("fonts/publicsans-light-webfont.woff2") format("woff2"), 
-    url("fonts/publicsans-light-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Public Sans";
-  font-style: normal;
-  src: 
-    url("fonts/publicsans-regular-webfont.woff2") format("woff2"), 
-    url("fonts/publicsans-regular-webfont.woff") format("woff");
-}
-
-
-/* General */
-
-body {
-  color: #000;
-  font-family: "Public Sans", sans-serif;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #000;
-  font-family: "Public Sans ExtraBold", sans-serif;
-}
-
-h1 {
-  padding-bottom: 10px;
-}
-
-h2 {
-  padding-bottom: 10px;
-}
-
-h3 {
-  padding-bottom: 10px;
-}
-
-p, li, .list-group-item {
-  font-size: auto !important;
-}
-
-a.list-group-item {
-  padding: 20px;
-}
-
-a, a:visited, a:hover {
-  color: #0071bc;
-}
-
-a, a:visited {
-  text-decoration: underline;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a.btn {
-  font-size: 20px;
-  font-family: "Public Sans ExtraBold", sans-serif;
-  padding: 15px;
-}
-
-a.btn {
-  background: #ccc;
-  color: #000;
-  border: 1px solid #f1f1f1;
-  text-decoration: none;
-}
-
-a.btn-dark {
-  background: #000;
-  color: #fff;
-  border: 1px solid #000;
-  text-decoration: none;
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: #000000 ;
-  border-color: #000000;
-}
-
-.btn-light {
-  color: #000;
-  background-color: #ccc;
-  border-color: #ccc;
-}
-
-.btn-primary:hover {
-  background-color: #005279;
-  border-color: #005279;
-}
-
-.btn-secondary:hover {
-  color: #fff;
-  background-color: #005279;
-  border-color: #005279;
-}
 
 a.list-group-item, a.list-group-item:visited {
   color: #000;
