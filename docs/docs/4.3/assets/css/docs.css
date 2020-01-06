@@ -1281,6 +1281,25 @@ a.btn-dark {
   border: 1px solid #000;
   text-decoration: none; }
 
+.btn-primary {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000; }
+
+.btn-light {
+  color: #000;
+  background-color: #ccc;
+  border-color: #ccc; }
+
+.btn-primary:hover {
+  background-color: #005279;
+  border-color: #005279; }
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #005279;
+  border-color: #005279; }
+
 a.list-group-item, a.list-group-item:visited {
   color: #000;
   text-decoration: none; }
@@ -1615,6 +1634,12 @@ a.btn {
   border-color: #cccccc;
   text-align: center; }
 
+.lead {
+  font-weight: 400; }
+
+ul > li.list-group-item.and-or-lead.lead.list-open {
+  border-bottom-width: 0 !important; }
+
 /* Step by Step List expandable classes */
 cwds-step-list li .details {
   height: 0px;
@@ -1642,6 +1667,13 @@ cwds-step-list li .step-interior {
   padding-left: 40px;
   display: block;
   font-size: initial; }
+
+cwds-step-list li .unstyled {
+  border-left-width: 0 !important;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  list-style-type: none; }
 
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {
