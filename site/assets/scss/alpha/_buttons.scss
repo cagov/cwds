@@ -32,6 +32,11 @@ a.btn:hover {
 	background: #005279;	
 }
 
+a.btn:visited, a:visited, a:hover {
+	color: #fff;
+}
+
+
 .btn-primary {
     color: #fff;
     background-color: #000;

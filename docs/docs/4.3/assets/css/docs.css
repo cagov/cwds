@@ -1253,6 +1253,9 @@ a.btn:hover {
   background-color: #005279;
   background: #005279; }
 
+a.btn::visited {
+  color: #fff; }
+
 .btn-primary {
   color: #fff;
   background-color: #000;
@@ -1276,7 +1279,8 @@ a.btn:hover {
 
 body {
   color: #000;
-  font-family: "Public Sans", sans-serif; }
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.2rem; }
 
 img {
   max-width: 100%;
@@ -2133,6 +2137,22 @@ li.lead {
     margin-left: -.6rem; }
   cwds-step-list li .step-interior {
     padding-left: 20px; } }
+
+/* Design System Specific CSS */
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {
+  text-decoration: none !important; }
+
+.navbar img {
+  width: auto;
+  height: auto;
+  max-width: 30px;
+  max-height: 50px; }
+
+.card .btn-link {
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+  color: #000;
+  background-color: transparent; }
 
 /* NEW Background .chroma { background-color: #f0f0f0; } */
 /* NEW Error .chroma .err { } */
