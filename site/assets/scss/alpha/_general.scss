@@ -327,6 +327,7 @@ hr {
   bottom: 0;
   width: 100%;
   background-color: #000;
+  z-index: 10;
 }
 
 .alphabar p {
@@ -414,23 +415,6 @@ hr {
   padding: 20px 0;
 }
 
-/* accordion component specific classes */
-
-cwds-accordion .card-container {
-  height: 0px;
-  display: block;
-  transition: height .3s;
-}
-
-cwds-accordion .card-header {
-  cursor: pointer;
-}
-
-cwds-accordion .collapsed {
-  display: block;
-  overflow: hidden;
-}
-
 
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {
@@ -498,7 +482,7 @@ li.list-group-item.alpha-footer {
     border-radius: 50%;
     border-color: #cccccc;
     text-align: center;
-    line-height: normal;
+   
 }
 
 
@@ -551,6 +535,7 @@ li.active ul.nav.bd-sidenav {
 
 
 
+
 /*----- from State Holidays Page -----*/
 
 
@@ -574,21 +559,6 @@ li.active ul.nav.bd-sidenav {
       padding: .2rem 1.25rem;
     }
 
-    /* accordion component specific classes */
-    cwds-accordion .card-container {
-      height: 0px;
-      display: block;
-      transition: height .3s;
-    }
-
-    cwds-accordion .card-header {
-      cursor: pointer;
-    }
-
-    cwds-accordion .collapsed {
-      display: block;
-      overflow: hidden;
-    }
 
     .mb-20 {
       margin-bottom: 20px;
@@ -607,26 +577,6 @@ li.active ul.nav.bd-sidenav {
 }
 
 
-
-/* accordion component specific classes */
-
-cwds-accordion .card-container {
-  height: 0px;
-  display: block;
-  transition: height .3s;
-}
-
-cwds-accordion .card-header {
-  cursor: pointer;
-}
-
-cwds-accordion .collapsed {
-  display: block;
-  overflow: hidden;
-}
-cwds-accordion .card-header .button {
-  color: #000;
-}
 
 
 
@@ -689,8 +639,6 @@ cwds-step-list li .hide {
 cwds-step-list li.list-group-item.list-open > div > span.hide {
     display: none;
 }
-
-
 
 	  
 cwds-step-list li.list-open .show {
@@ -794,18 +742,7 @@ cwds-step-list li .unstyled {
     color: #0071bc;
     text-decoration: underline;
 }
-	  
-cwds-step-list li .hide {
-    display: none;
-}
-	  
-cwds-step-list li.list-open .show {
-    display: none;
-}
-	  
-cwds-step-list li.list-open .hide {
-    display: block;
-}
+
 	  
 li.lead {
 
@@ -850,25 +787,6 @@ li.lead {
       padding: .2rem 1.25rem;
     }
 
-    /* accordion component specific classes */
-    cwds-accordion .card-container {
-      height: 0px;
-      display: block;
-      transition: height .3s;
-    }
-
-    cwds-accordion .card-header {
-      cursor: pointer;
-    }
-
-    cwds-accordion .collapsed {
-      display: block;
-      overflow: hidden;
-    }
-
-    .mb-20 {
-      margin-bottom: 20px;
-    }
 
 
 
@@ -883,28 +801,6 @@ li.lead {
 }
 
 
-
-
-/* accordion component specific classes */
-
-
-cwds-accordion .card-container {
-  height: 0px;
-  display: block;
-  transition: height .3s;
-}
-
-cwds-accordion .card-header {
-  cursor: pointer;
-}
-
-cwds-accordion .collapsed {
-  display: block;
-  overflow: hidden;
-}
-cwds-accordion .card-header .button {
-  color: #000;
-}
 
 
 /*-------From Contractor Step by Step Page -------*/
@@ -1083,6 +979,19 @@ cwds-step-list li.list-open .show {
 cwds-step-list li.list-open .hide {
     display: block;
 }
+
+
+.inner-list {
+	border: none!important;
+	display: list-item;
+    list-style-type: disc;
+    background: none;
+	border-width: 0;
+	padding-left: 0;
+	border-left: none!important;
+	margin-left: 30px!important;
+}
+
 	  
 li.lead {
 
@@ -1113,6 +1022,11 @@ li.lead {
 /* have to put this in there for the image to load */
 .nerf {
   background-image: url('../img/marker.png');
+}
+
+
+.mb-20 {
+  margin-bottom: 20px;
 }
 
 

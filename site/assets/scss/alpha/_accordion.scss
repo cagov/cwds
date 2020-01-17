@@ -1,0 +1,24 @@
+/* accordion component specific classes */
+    
+cwds-accordion .card-container {
+  height: 0px;
+  display: block;
+  transition: height .3s;
+}
+
+cwds-accordion .card-header {
+  cursor: pointer;
+}
+
+cwds-accordion .collapsed {
+  display: block;
+  overflow: hidden;
+}
+
+cwds-accordion .card-header .button {
+  color: #000;
+}
+
+cwds-accordion .card-header .button {
+  color: #000;
+}

@@ -1540,7 +1540,8 @@ hr {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #000; }
+  background-color: #000;
+  z-index: 10; }
 
 .alphabar p {
   color: #fff;
@@ -1610,19 +1611,6 @@ hr {
 .py-20 {
   padding: 20px 0; }
 
-/* accordion component specific classes */
-cwds-accordion .card-container {
-  height: 0px;
-  display: block;
-  transition: height .3s; }
-
-cwds-accordion .card-header {
-  cursor: pointer; }
-
-cwds-accordion .collapsed {
-  display: block;
-  overflow: hidden; }
-
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {
   display: block; }
@@ -1669,8 +1657,7 @@ li.list-group-item.alpha-footer {
   border-style: solid;
   border-radius: 50%;
   border-color: #cccccc;
-  text-align: center;
-  line-height: normal; }
+  text-align: center; }
 
 /* Step by Step List expandable classes */
 cwds-step-list li .details {
@@ -1726,19 +1713,6 @@ li.active ul.nav.bd-sidenav {
 .display-6.alert {
   padding: .2rem 1.25rem; }
 
-/* accordion component specific classes */
-cwds-accordion .card-container {
-  height: 0px;
-  display: block;
-  transition: height .3s; }
-
-cwds-accordion .card-header {
-  cursor: pointer; }
-
-cwds-accordion .collapsed {
-  display: block;
-  overflow: hidden; }
-
 .mb-20 {
   margin-bottom: 20px; }
 
@@ -1748,22 +1722,6 @@ cwds-accordion .collapsed {
 
 .py-20 {
   padding: 20px 0; }
-
-/* accordion component specific classes */
-cwds-accordion .card-container {
-  height: 0px;
-  display: block;
-  transition: height .3s; }
-
-cwds-accordion .card-header {
-  cursor: pointer; }
-
-cwds-accordion .collapsed {
-  display: block;
-  overflow: hidden; }
-
-cwds-accordion .card-header .button {
-  color: #000; }
 
 /*-------From Contractor Step by Step Page -------*/
 cwds-step-list li .step-interior {
@@ -1885,15 +1843,6 @@ cwds-step-list li .unstyled {
   font-size: 15px;
   color: #0071bc;
   text-decoration: underline; }
-
-cwds-step-list li .hide {
-  display: none; }
-
-cwds-step-list li.list-open .show {
-  display: none; }
-
-cwds-step-list li.list-open .hide {
-  display: block; }
 
 li.lead {
   font-weight: 400; }
@@ -1924,44 +1873,12 @@ li.lead {
 .display-6.alert {
   padding: .2rem 1.25rem; }
 
-/* accordion component specific classes */
-cwds-accordion .card-container {
-  height: 0px;
-  display: block;
-  transition: height .3s; }
-
-cwds-accordion .card-header {
-  cursor: pointer; }
-
-cwds-accordion .collapsed {
-  display: block;
-  overflow: hidden; }
-
-.mb-20 {
-  margin-bottom: 20px; }
-
 /* --------- from Min Wage Page -------*/
 .d-none {
   display: none; }
 
 .py-20 {
   padding: 20px 0; }
-
-/* accordion component specific classes */
-cwds-accordion .card-container {
-  height: 0px;
-  display: block;
-  transition: height .3s; }
-
-cwds-accordion .card-header {
-  cursor: pointer; }
-
-cwds-accordion .collapsed {
-  display: block;
-  overflow: hidden; }
-
-cwds-accordion .card-header .button {
-  color: #000; }
 
 /*-------From Contractor Step by Step Page -------*/
 cwds-step-list li .step-interior {
@@ -2093,6 +2010,16 @@ cwds-step-list li.list-open .show {
 cwds-step-list li.list-open .hide {
   display: block; }
 
+.inner-list {
+  border: none !important;
+  display: list-item;
+  list-style-type: disc;
+  background: none;
+  border-width: 0;
+  padding-left: 0;
+  border-left: none !important;
+  margin-left: 30px !important; }
+
 li.lead {
   font-weight: 400; }
 
@@ -2117,6 +2044,9 @@ li.lead {
 .nerf {
   background-image: url("../img/marker.png"); }
 
+.mb-20 {
+  margin-bottom: 20px; }
+
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   .official p {
@@ -2137,6 +2067,25 @@ li.lead {
     margin-left: -.6rem; }
   cwds-step-list li .step-interior {
     padding-left: 20px; } }
+
+/* accordion component specific classes */
+cwds-accordion .card-container {
+  height: 0px;
+  display: block;
+  transition: height .3s; }
+
+cwds-accordion .card-header {
+  cursor: pointer; }
+
+cwds-accordion .collapsed {
+  display: block;
+  overflow: hidden; }
+
+cwds-accordion .card-header .button {
+  color: #000; }
+
+cwds-accordion .card-header .button {
+  color: #000; }
 
 /* Design System Specific CSS */
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {
