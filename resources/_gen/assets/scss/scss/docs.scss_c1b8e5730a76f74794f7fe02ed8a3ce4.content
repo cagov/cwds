@@ -1215,6 +1215,11 @@
   src: url("fonts/publicsans-extrabold-webfont.woff2") format("woff2"), url("fonts/publicsans-extrabold-webfont.woff") format("woff"); }
 
 @font-face {
+  font-family: "Public Sans Bold";
+  font-style: normal;
+  src: url("fonts/publicsans-bold-webfont.woff2") format("woff2"), url("fonts/publicsans-bold-webfont.woff") format("woff"); }
+
+@font-face {
   font-family: "Public Sans Light";
   font-style: normal;
   src: url("fonts/publicsans-light-webfont.woff2") format("woff2"), url("fonts/publicsans-light-webfont.woff") format("woff"); }
@@ -1855,23 +1860,6 @@ li.lead {
 
 .list-group-item-action:hover {
   color: #000; }
-
-/*----- from State Holidays Page -----*/
-.display-4,
-.display-3,
-.display-4,
-.display-5,
-.display-6 {
-  font-family: 'Public Sans Bold', sans-serif; }
-
-.display-5 {
-  font-size: 1.5rem; }
-
-.display-6 {
-  font-size: 1.2rem; }
-
-.display-6.alert {
-  padding: .2rem 1.25rem; }
 
 /* --------- from Min Wage Page -------*/
 .d-none {
