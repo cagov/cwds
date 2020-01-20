@@ -1244,8 +1244,13 @@ a.btn-dark {
   border: 1px solid #000;
   text-decoration: none; }
 
+a.btn-dark:hover {
+  color: #fff;
+  background-color: #005279;
+  background: #005279; }
+
 a.btn {
-  background: #000 !important;
+  background: #000;
   color: #fff;
   border: 1px solid #f1f1f1;
   text-decoration: none;
@@ -2038,14 +2043,16 @@ li.lead {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   .official p {
-    padding: 3px 0 3px 55px; } }
+    padding: 3px 0 3px 75px; } }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   .alphabar {
     font-size: .7em; }
+  .alpha-footer {
+    padding-left: 20px; }
   .official p {
-    padding: 0 0 0 90px;
+    padding: 0 0 0 65px;
     background-size: contain; }
   .one-column-fix {
     margin-top: -2px; }

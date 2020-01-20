@@ -1215,6 +1215,11 @@
   src: url("fonts/publicsans-extrabold-webfont.woff2") format("woff2"), url("fonts/publicsans-extrabold-webfont.woff") format("woff"); }
 
 @font-face {
+  font-family: "Public Sans Bold";
+  font-style: normal;
+  src: url("fonts/publicsans-bold-webfont.woff2") format("woff2"), url("fonts/publicsans-bold-webfont.woff") format("woff"); }
+
+@font-face {
   font-family: "Public Sans Light";
   font-style: normal;
   src: url("fonts/publicsans-light-webfont.woff2") format("woff2"), url("fonts/publicsans-light-webfont.woff") format("woff"); }
@@ -1239,8 +1244,13 @@ a.btn-dark {
   border: 1px solid #000;
   text-decoration: none; }
 
+a.btn-dark:hover {
+  color: #fff;
+  background-color: #005279;
+  background: #005279; }
+
 a.btn {
-  background: #000 !important;
+  background: #000;
   color: #fff;
   border: 1px solid #f1f1f1;
   text-decoration: none;
@@ -1253,7 +1263,7 @@ a.btn:hover {
   background-color: #005279;
   background: #005279; }
 
-a.btn::visited {
+a.btn:visited, a:visited, a:hover {
   color: #fff; }
 
 .btn-primary {
@@ -1540,7 +1550,8 @@ hr {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #000; }
+  background-color: #000;
+  z-index: 10; }
 
 .alphabar p {
   color: #fff;
@@ -1610,19 +1621,6 @@ hr {
 .py-20 {
   padding: 20px 0; }
 
-/* accordion component specific classes */
-cwds-accordion .card-container {
-  height: 0px;
-  display: block;
-  transition: height .3s; }
-
-cwds-accordion .card-header {
-  cursor: pointer; }
-
-cwds-accordion .collapsed {
-  display: block;
-  overflow: hidden; }
-
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {
   display: block; }
@@ -1669,8 +1667,7 @@ li.list-group-item.alpha-footer {
   border-style: solid;
   border-radius: 50%;
   border-color: #cccccc;
-  text-align: center;
-  line-height: normal; }
+  text-align: center; }
 
 /* Step by Step List expandable classes */
 cwds-step-list li .details {
@@ -1726,19 +1723,6 @@ li.active ul.nav.bd-sidenav {
 .display-6.alert {
   padding: .2rem 1.25rem; }
 
-/* accordion component specific classes */
-cwds-accordion .card-container {
-  height: 0px;
-  display: block;
-  transition: height .3s; }
-
-cwds-accordion .card-header {
-  cursor: pointer; }
-
-cwds-accordion .collapsed {
-  display: block;
-  overflow: hidden; }
-
 .mb-20 {
   margin-bottom: 20px; }
 
@@ -1749,21 +1733,145 @@ cwds-accordion .collapsed {
 .py-20 {
   padding: 20px 0; }
 
-/* accordion component specific classes */
-cwds-accordion .card-container {
-  height: 0px;
-  display: block;
-  transition: height .3s; }
+/*-------From Contractor Step by Step Page -------*/
+cwds-step-list li .step-interior {
+  padding-bottom: 20px; }
 
-cwds-accordion .card-header {
-  cursor: pointer; }
+.checkbox {
+  vertical-align: text-top; }
 
-cwds-accordion .collapsed {
-  display: block;
-  overflow: hidden; }
-
-cwds-accordion .card-header .button {
+.list-group-item.active {
+  background-color: #e5e8e4;
+  border-color: #e5e8e4;
   color: #000; }
+
+.list-group-item1 {
+  background-color: #005279;
+  border-color: #005279; }
+
+.list-group-item.active > a {
+  color: #073984; }
+
+ul > li.list-group-item.and-or-lead.list-open {
+  border-bottom-width: 0 !important; }
+
+.badge-primary {
+  background-color: #005279 !important; }
+
+.show {
+  float: right;
+  font-size: 15px;
+  color: #0071bc;
+  text-decoration: underline; }
+
+.hide {
+  float: right;
+  font-size: 15px;
+  color: #0071bc;
+  text-decoration: underline; }
+
+cwds-step-list li .hide {
+  display: none; }
+
+cwds-step-list li.list-group-item.list-open > div > span.hide {
+  display: none; }
+
+cwds-step-list li.list-open .show {
+  display: none; }
+
+cwds-step-list li.list-open .hide {
+  display: block; }
+
+li.lead {
+  font-weight: 400; }
+
+.step-list-and-or {
+  border-radius: 0 !important;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  padding: 0px 5px; }
+
+ul > span.nested-and-or {
+  border-left: #ccc solid 4px;
+  padding: 5px;
+  line-height: 2rem; }
+
+cwds-step-list li .unstyled {
+  border-left-width: 0 !important;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  list-style-type: none;
+  background: none; }
+
+.no-border {
+  border: 0 !important; }
+
+.list-group-item-action {
+  color: #1e1f1f; }
+
+.list-group-item-action:active :hover {
+  color: #000; }
+
+.list-group-item-action:hover {
+  color: #000; }
+
+.lead {
+  font-weight: 400; }
+
+.list-group input[type="checkbox"] {
+  margin-right: 8px; }
+
+.checkbox {
+  vertical-align: text-top;
+  margin-top: 5px; }
+
+.list-group-item.active {
+  background-color: #efefef;
+  border-color: #efefef;
+  color: #000; }
+
+.list-group-item1 {
+  background-color: #005279;
+  border-color: #005279; }
+
+.list-group-item.active > a {
+  color: #073984; }
+
+.badge-primary {
+  background-color: #005279 !important; }
+
+.show {
+  float: right;
+  font-size: 15px;
+  color: #0071bc;
+  text-decoration: underline; }
+
+.hide {
+  float: right;
+  font-size: 15px;
+  color: #0071bc;
+  text-decoration: underline; }
+
+li.lead {
+  font-weight: 400; }
+
+.list-group-item-action {
+  color: #1e1f1f; }
+
+.list-group-item-action:active :hover {
+  color: #000; }
+
+.list-group-item-action:hover {
+  color: #000; }
+
+/* --------- from Min Wage Page -------*/
+.d-none {
+  display: none; }
+
+.py-20 {
+  padding: 20px 0; }
 
 /*-------From Contractor Step by Step Page -------*/
 cwds-step-list li .step-interior {
@@ -1895,203 +2003,15 @@ cwds-step-list li.list-open .show {
 cwds-step-list li.list-open .hide {
   display: block; }
 
-li.lead {
-  font-weight: 400; }
-
-.list-group-item-action {
-  color: #1e1f1f; }
-
-.list-group-item-action:active :hover {
-  color: #000; }
-
-.list-group-item-action:hover {
-  color: #000; }
-
-/*----- from State Holidays Page -----*/
-.display-4,
-.display-3,
-.display-4,
-.display-5,
-.display-6 {
-  font-family: 'Public Sans Bold', sans-serif; }
-
-.display-5 {
-  font-size: 1.5rem; }
-
-.display-6 {
-  font-size: 1.2rem; }
-
-.display-6.alert {
-  padding: .2rem 1.25rem; }
-
-/* accordion component specific classes */
-cwds-accordion .card-container {
-  height: 0px;
-  display: block;
-  transition: height .3s; }
-
-cwds-accordion .card-header {
-  cursor: pointer; }
-
-cwds-accordion .collapsed {
-  display: block;
-  overflow: hidden; }
-
-.mb-20 {
-  margin-bottom: 20px; }
-
-/* --------- from Min Wage Page -------*/
-.d-none {
-  display: none; }
-
-.py-20 {
-  padding: 20px 0; }
-
-/* accordion component specific classes */
-cwds-accordion .card-container {
-  height: 0px;
-  display: block;
-  transition: height .3s; }
-
-cwds-accordion .card-header {
-  cursor: pointer; }
-
-cwds-accordion .collapsed {
-  display: block;
-  overflow: hidden; }
-
-cwds-accordion .card-header .button {
-  color: #000; }
-
-/*-------From Contractor Step by Step Page -------*/
-cwds-step-list li .step-interior {
-  padding-bottom: 20px; }
-
-.checkbox {
-  vertical-align: text-top; }
-
-.list-group-item.active {
-  background-color: #e5e8e4;
-  border-color: #e5e8e4;
-  color: #000; }
-
-.list-group-item1 {
-  background-color: #005279;
-  border-color: #005279; }
-
-.list-group-item.active > a {
-  color: #073984; }
-
-ul > li.list-group-item.and-or-lead.list-open {
-  border-bottom-width: 0 !important; }
-
-.badge-primary {
-  background-color: #005279 !important; }
-
-.show {
-  float: right;
-  font-size: 15px;
-  color: #0071bc;
-  text-decoration: underline; }
-
-.hide {
-  float: right;
-  font-size: 15px;
-  color: #0071bc;
-  text-decoration: underline; }
-
-cwds-step-list li .hide {
-  display: none; }
-
-cwds-step-list li.list-group-item.list-open > div > span.hide {
-  display: none; }
-
-cwds-step-list li.list-open .show {
-  display: none; }
-
-cwds-step-list li.list-open .hide {
-  display: block; }
-
-li.lead {
-  font-weight: 400; }
-
-.step-list-and-or {
-  border-radius: 0 !important;
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-  padding: 0px 5px; }
-
-ul > span.nested-and-or {
-  border-left: #ccc solid 4px;
-  padding: 5px;
-  line-height: 2rem; }
-
-cwds-step-list li .unstyled {
-  border-left-width: 0 !important;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  list-style-type: none;
-  background: none; }
-
-.no-border {
-  border: 0 !important; }
-
-.list-group-item-action {
-  color: #1e1f1f; }
-
-.list-group-item-action:active :hover {
-  color: #000; }
-
-.list-group-item-action:hover {
-  color: #000; }
-
-.lead {
-  font-weight: 400; }
-
-.list-group input[type="checkbox"] {
-  margin-right: 8px; }
-
-.checkbox {
-  vertical-align: text-top;
-  margin-top: 5px; }
-
-.list-group-item.active {
-  background-color: #efefef;
-  border-color: #efefef;
-  color: #000; }
-
-.list-group-item1 {
-  background-color: #005279;
-  border-color: #005279; }
-
-.list-group-item.active > a {
-  color: #073984; }
-
-.badge-primary {
-  background-color: #005279 !important; }
-
-.show {
-  float: right;
-  font-size: 15px;
-  color: #0071bc;
-  text-decoration: underline; }
-
-.hide {
-  float: right;
-  font-size: 15px;
-  color: #0071bc;
-  text-decoration: underline; }
-
-cwds-step-list li .hide {
-  display: none; }
-
-cwds-step-list li.list-open .show {
-  display: none; }
-
-cwds-step-list li.list-open .hide {
-  display: block; }
+.inner-list {
+  border: none !important;
+  display: list-item;
+  list-style-type: disc;
+  background: none;
+  border-width: 0;
+  padding-left: 0;
+  border-left: none !important;
+  margin-left: 30px !important; }
 
 li.lead {
   font-weight: 400; }
@@ -2117,17 +2037,22 @@ li.lead {
 .nerf {
   background-image: url("../img/marker.png"); }
 
+.mb-20 {
+  margin-bottom: 20px; }
+
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   .official p {
-    padding: 3px 0 3px 55px; } }
+    padding: 3px 0 3px 75px; } }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   .alphabar {
     font-size: .7em; }
+  .alpha-footer {
+    padding-left: 20px; }
   .official p {
-    padding: 0 0 0 90px;
+    padding: 0 0 0 65px;
     background-size: contain; }
   .one-column-fix {
     margin-top: -2px; }
@@ -2137,6 +2062,25 @@ li.lead {
     margin-left: -.6rem; }
   cwds-step-list li .step-interior {
     padding-left: 20px; } }
+
+/* accordion component specific classes */
+cwds-accordion .card-container {
+  height: 0px;
+  display: block;
+  transition: height .3s; }
+
+cwds-accordion .card-header {
+  cursor: pointer; }
+
+cwds-accordion .collapsed {
+  display: block;
+  overflow: hidden; }
+
+cwds-accordion .card-header .button {
+  color: #000; }
+
+cwds-accordion .card-header .button {
+  color: #000; }
 
 /* Design System Specific CSS */
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {

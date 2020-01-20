@@ -456,7 +456,6 @@ li.active ul.nav.bd-sidenav {
 
 
 .alpha-footer {
-	
 	background: #fff;
 	background-color: #fff;
 	border-bottom-width: 1px;
@@ -1009,7 +1008,7 @@ li.lead {
 @media (min-width: 768px) { 
 
   .official p {
-    padding: 3px 0 3px 55px;
+    padding: 3px 0 3px 75px;
   }
 
 }
@@ -1017,16 +1016,20 @@ li.lead {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
 
-  .alphabar {
-    font-size: .7em;
-  }
-	
-  .official p {
-    padding: 0 0 0 90px;
+.alphabar {
+	font-size: .7em;
+}
+
+.alpha-footer {
+	padding-left: 20px;
+}
+
+.official p {
+	padding: 0 0 0 65px;
 	background-size: contain;
-  }
-	
-  .one-column-fix {
+}
+
+.one-column-fix {
 	margin-top: -2px;
 }
 	

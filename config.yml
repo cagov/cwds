@@ -1,5 +1,5 @@
 languageCode:           "en"
-title:                  "CA Web Design System"
+title:                  "California Design System (ALPHA)"
 baseURL:                "http://cwds.dev"
 enableInlineShortcodes: true
 
@@ -42,7 +42,7 @@ module:
       target:           static/favicon.ico
 
 params:
-  description:          "State of California Web Design System"
+  description:          "State of California Design System (ALPHA)"
   authors:              "Bootstrap, Luke Fretwell, Artem Khomishen"
   social_image_path:    /docs/4.3/assets/img/bear-logo.png
   social_logo_path:     /docs/4.3/assets/img/bear-logo.png
