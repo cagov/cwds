@@ -1637,9 +1637,6 @@ li.list-group-item.alpha-footer {
   border-bottom: 0;
   border-top: 0; }
 
-.list-group-item-action:hover {
-  text-decoration: underline; }
-
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {
   display: block; }
@@ -1722,6 +1719,10 @@ figcaption {
   margin-bottom: 15px;
   padding-bottom: 10px;
   padding-top: 10px; }
+
+a.list-group-item.list-group-item-action.lead {
+  text-decoration: underline;
+  color: #0071bc; }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
@@ -1844,9 +1845,9 @@ cwds-step-list li.list-open .hide {
 
 .step-list-and-or {
   border-radius: 0 !important;
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
+  width: -webkit-min-content !important;
+  width: -moz-min-content !important;
+  width: min-content !important;
   padding: 0px 5px; }
 
 ul > span.nested-and-or {

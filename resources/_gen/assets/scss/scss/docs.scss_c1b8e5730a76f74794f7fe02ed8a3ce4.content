@@ -1754,6 +1754,10 @@ figcaption {
   padding-bottom: 10px;
   padding-top: 10px; }
 
+a.list-group-item.list-group-item-action.lead {
+  text-decoration: underline;
+  color: #0071bc; }
+
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   .official p {
