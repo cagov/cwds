@@ -2040,6 +2040,30 @@ li.lead {
 .mb-20 {
   margin-bottom: 20px; }
 
+.card {
+  margin-bottom: 20px; }
+
+.card-set .card {
+  min-width: 200px;
+  float: left; }
+
+.card-set {
+  grid-gap: 20px; }
+
+.byline {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding-bottom: 10px; }
+
+figure {
+  margin-bottom: 10px; }
+
+figcaption {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   .official p {
