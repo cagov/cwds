@@ -1,3 +1,4 @@
+
 body {
   color: #000;
   font-family: "Public Sans", sans-serif;
@@ -14,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Public Sans ExtraBold", sans-serif;
   font-weight: bold;
+  letter-spacing: -.01em;
 }
 
 h1 {
@@ -48,13 +50,41 @@ a:hover {
   text-decoration: none;
 }
 
+.bold {
+  font-family: "Public Sans ExtraBold", sans-serif;
+}
+
+/* List group */
+
+.list-number {
+  background: #000000;
+  border-color: #000000 !important;
+  border-width: 1px !important;
+  color: #ffffff;
+  font-family: "Public Sans ExtraBold", sans-serif;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+.list-group-item {
+  border-color: #cccccc;
+}
+a.list-group-item-action {
+  color: #000000 !important;
+  text-decoration: none;
+}
+
+
+/* Navbar */
 
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {
 	text-decoration: none !important;
 }
+.nav-item {
+  font-size: 1.1rem;
+}
 
 .alert-left {
-	border-left: 4px solid #b71134;
+	border-left: 4px solid #000000;
 }
 
 sup {
@@ -63,8 +93,22 @@ sup {
 }
 
 hr {
-  border-top: 5px solid #000;
+  border-top: 1px solid #000;
   margin: 15px 0;
+}
+
+/* Tables */
+
+.table {
+  color: #000000;
+}
+.table .thead-dark th {
+  background: #000000;
+  color: #ffffff;
+}
+.table .thead-light th {
+  background: #f1f1f1;
+  color: #000000;
 }
 
 /* Card */
@@ -104,14 +148,12 @@ hr {
   font-size: 18px;
 }
 
-
-
 /* Alerts */
 
-.alert-secondary {
+.alert-info, .alert-primary {
   background: #f1f1f1;
-  margin-bottom: 30px;
-  padding: 20px;
+  border-color: #cccccc;
+  margin-bottom: 20px;
   color: #000;
 }
 
@@ -122,11 +164,11 @@ hr {
 
 /* Mods */
 
-.official p, .footer p, .alphabar p {
-  font-size: 105%;
+.official, .footer, .alphabar {
+  font-size: 1rem;
 }
 
-/* Navbar */
+/* Performance */
 
 .performance {
   background: #f1f1f1;
@@ -418,7 +460,7 @@ li.active ul.nav.bd-sidenav {
 
 .search-btn:hover {
 
-    border: 5px #343a40 solid;
+  border: 5px #343a40 solid;
 	background: #343a40;
 	box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5)
   
@@ -433,8 +475,7 @@ li.active ul.nav.bd-sidenav {
 .alpha-footer {
 	background: #fff;
 	background-color: #fff;
-	border-bottom-width: 1px;
-	border-top: 2px solid #ccc;
+	border-top: 1px solid #000000;
 	padding-bottom: 50px;
 }
 
@@ -491,10 +532,6 @@ li.active ul.nav.bd-sidenav {
   padding: 20px 0;
 }
 
-
-
-
-
   /* --------- from Min Wage Page -------*/
 
 .d-none {
@@ -505,17 +542,10 @@ li.active ul.nav.bd-sidenav {
   padding: 20px 0;
 }
 
-.lead {
-    font-weight: 400;
+.lead, li.lead {
+  font-weight: 400;
+  font-size: 1.4rem;
 }
-
-	  
- li.lead {
-
-    font-weight: 400;
-}
-	 Y
-	  	  
 	  
 /* minimum wage override */
 .wage-city-search label {
