@@ -443,31 +443,15 @@ li.list-group-item.alpha-footer {
 	    border-top: 0;
 }
 
-
-/* Step by Step*/
-
-.list-number {
-    position: relative;
-    display: inline-block;
-    width: 33px;
-    height: 33px;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 50%;
-    border-color: #cccccc;
-    text-align: center;
-   
+.list-group-item-action:hover {
+    text-decoration: underline;
 }
-
-
 
 
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {
   display: block;
 }
-
-
 
 
 
@@ -512,49 +496,7 @@ li.active ul.nav.bd-sidenav {
 }
 
 
-/*-------From Contractor Step by Step Page -------*/
 
-
-	  
-.checkbox {
-	vertical-align: text-top;
-}	 
-	  
-.list-group-item.active {
-    background-color: #e5e8e4;
-    border-color: #e5e8e4;
-	color: #000;
-}	  
-	  
-.list-group-item1 {    
-	background-color: #005279;
-    border-color: #005279;
-}
-	  
-.list-group-item.active > a  {
-    color: #073984;
-}
-	  
-ul > li.list-group-item.and-or-lead.list-open {
-   border-bottom-width: 0!important;
-}
-	
-	  
-.badge-primary {
-    background-color: #005279!important;
-}
-	  
-
-.lead {
-    font-weight: 400;
-}
-
-
-li.lead {
-
-    font-weight: 400;
-}
-	  
 
 
   /* --------- from Min Wage Page -------*/
@@ -567,43 +509,16 @@ li.lead {
   padding: 20px 0;
 }
 
-
-
-
-/*-------From Contractor Step by Step Page -------*/
-
-	  
-.badge-primary {
-
-    background-color: #005279!important;
+.lead {
+    font-weight: 400;
 }
-	  
+
 	  
  li.lead {
 
     font-weight: 400;
 }
-	 
-	  
-.step-list-and-or {	  
-	border-radius: 0!important;
-    width: min-content;
-    padding: 0px 5px;
-}	 
-	  
-ul > span.nested-and-or {
-    border-left: #ccc solid 4px;
-    padding: 5px;
-    line-height: 2rem;
-}	  
-	    
-.no-border {		  
-	border:0!important;
-}
-	  	  
-.badge-primary {
-    background-color: #005279!important;
-}
+	 Y
 	  	  
 	  
 /* minimum wage override */

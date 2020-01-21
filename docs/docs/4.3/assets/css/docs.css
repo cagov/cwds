@@ -1637,17 +1637,8 @@ li.list-group-item.alpha-footer {
   border-bottom: 0;
   border-top: 0; }
 
-/* Step by Step*/
-.list-number {
-  position: relative;
-  display: inline-block;
-  width: 33px;
-  height: 33px;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 50%;
-  border-color: #cccccc;
-  text-align: center; }
+.list-group-item-action:hover {
+  text-decoration: underline; }
 
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {
@@ -1680,34 +1671,6 @@ li.active ul.nav.bd-sidenav {
 .py-20 {
   padding: 20px 0; }
 
-/*-------From Contractor Step by Step Page -------*/
-.checkbox {
-  vertical-align: text-top; }
-
-.list-group-item.active {
-  background-color: #e5e8e4;
-  border-color: #e5e8e4;
-  color: #000; }
-
-.list-group-item1 {
-  background-color: #005279;
-  border-color: #005279; }
-
-.list-group-item.active > a {
-  color: #073984; }
-
-ul > li.list-group-item.and-or-lead.list-open {
-  border-bottom-width: 0 !important; }
-
-.badge-primary {
-  background-color: #005279 !important; }
-
-.lead {
-  font-weight: 400; }
-
-li.lead {
-  font-weight: 400; }
-
 /* --------- from Min Wage Page -------*/
 .d-none {
   display: none; }
@@ -1715,32 +1678,13 @@ li.lead {
 .py-20 {
   padding: 20px 0; }
 
-/*-------From Contractor Step by Step Page -------*/
-.badge-primary {
-  background-color: #005279 !important; }
+.lead {
+  font-weight: 400; }
 
 li.lead {
   font-weight: 400; }
 
-.step-list-and-or {
-  border-radius: 0 !important;
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-  padding: 0px 5px; }
-
-ul > span.nested-and-or {
-  border-left: #ccc solid 4px;
-  padding: 5px;
-  line-height: 2rem; }
-
-.no-border {
-  border: 0 !important; }
-
-.badge-primary {
-  background-color: #005279 !important; }
-
-/* minimum wage override */
+Y
 .wage-city-search label {
   justify-content: left; }
 
@@ -1963,6 +1907,17 @@ ul > li.list-group-item.and-or-lead.list-open {
   padding-left: 0;
   border-left: none !important;
   margin-left: 30px !important; }
+
+.list-number {
+  position: relative;
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #cccccc;
+  text-align: center; }
 
 /* Design System Specific CSS */
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {
