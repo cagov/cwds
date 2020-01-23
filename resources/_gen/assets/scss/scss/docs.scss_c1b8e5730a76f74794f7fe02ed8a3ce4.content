@@ -1217,7 +1217,7 @@
 @font-face {
   font-family: "Public Sans Bold";
   font-style: normal;
-  src: url("/docs/cali/fonts/publicsans-bold-webfont.woff2") format("woff2"), url("/docs//cali/fonts/publicsans-bold-webfont.woff") format("woff"); }
+  src: url("/docs/cali/fonts/publicsans-bold-webfont.woff2") format("woff2"), url("/docs/cali/fonts/publicsans-bold-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: "Public Sans Light";
