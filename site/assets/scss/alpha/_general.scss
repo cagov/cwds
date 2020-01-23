@@ -13,7 +13,7 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Public Sans Extra Bold", sans-serif;
+  font-family: "Public Sans Bold", sans-serif;
   font-weight: bold;
   letter-spacing: -.01em;
 }
@@ -62,7 +62,7 @@ a:hover {
   border-color: #000000 !important;
   border-width: 1px !important;
   color: #ffffff;
-  font-family: "Public Sans ExtraBold", sans-serif;
+  font-family: "Public Sans Bold", sans-serif;
   font-size: 1.2rem;
   margin-right: 10px;
 }
@@ -245,9 +245,8 @@ hr {
   max-height: 35px;
 }
 .navbar-brand {
-  font-family: 'Public Sans ExtraBold', sans-serif;
+  font-family: 'Public Sans Bold', sans-serif;
   padding-left: 35px;
-  background-image: url('../img/ca-light.png');
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 15%;

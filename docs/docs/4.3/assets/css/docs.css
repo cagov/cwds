@@ -1212,22 +1212,22 @@
 @font-face {
   font-family: "Public Sans Extra Bold";
   font-style: normal;
-  src: url("/cali/css/fonts/publicsans-extrabold-webfont.woff2") format("woff2"), url("/cali//css/fonts/publicsans-extrabold-webfont.woff") format("woff"); }
+  src: url("/css/fonts/publicsans-extrabold-webfont.woff2") format("woff2"), url("/css/fonts/publicsans-extrabold-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: "Public Sans Bold";
   font-style: normal;
-  src: url("/cali//css/fonts/publicsans-bold-webfont.woff2") format("woff2"), url("/cali//css/fonts/publicsans-bold-webfont.woff") format("woff"); }
+  src: url("/css/fonts/publicsans-bold-webfont.woff2") format("woff2"), url("/css/fonts/publicsans-bold-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: "Public Sans Light";
   font-style: normal;
-  src: url("/cali//css/fonts/publicsans-light-webfont.woff2") format("woff2"), url("/cali//css/fonts/publicsans-light-webfont.woff") format("woff"); }
+  src: url("/css/fonts/publicsans-light-webfont.woff2") format("woff2"), url("/css/fonts/publicsans-light-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: "Public Sans";
   font-style: normal;
-  src: url("/cali//css/fonts/publicsans-regular-webfont.woff2") format("woff2"), url("/cali//css/fonts/publicsans-regular-webfont.woff") format("woff"); }
+  src: url("/css/fonts/publicsans-regular-webfont.woff2") format("woff2"), url("/css/fonts/publicsans-regular-webfont.woff") format("woff"); }
 
 a.btn {
   background: #000;
@@ -1336,7 +1336,7 @@ a:hover {
   border-color: #000000 !important;
   border-width: 1px !important;
   color: #ffffff;
-  font-family: "Public Sans ExtraBold", sans-serif;
+  font-family: "Public Sans Extra Bold", sans-serif;
   font-size: 1.2rem;
   margin-right: 10px; }
 
@@ -1482,7 +1482,7 @@ hr {
   max-height: 35px; }
 
 .navbar-brand {
-  font-family: 'Public Sans ExtraBold', sans-serif;
+  font-family: 'Public Sans Extra Bold', sans-serif;
   padding-left: 35px;
   background-image: url("../img/ca-light.png");
   background-repeat: no-repeat;
