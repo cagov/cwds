@@ -1486,7 +1486,8 @@ hr {
   padding-left: 35px;
   background-repeat: no-repeat;
   background-position: 5px 50%;
-  background-size: 15%; }
+  background-size: 15%;
+  background-image: url("https://alpha.ca.gov/img/ca-light.png"); }
 
 .navbar-inverse, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
   background-color: #000;
@@ -1975,6 +1976,9 @@ ul > li.list-group-item.and-or-lead.list-open {
   font-size: 18px;
   color: #000;
   background-color: transparent; }
+
+.docs-brand {
+  background-size: 8%; }
 
 /* NEW Background .chroma { background-color: #f0f0f0; } */
 /* NEW Error .chroma .err { } */
