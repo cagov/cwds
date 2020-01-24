@@ -1327,8 +1327,7 @@ a:hover {
   text-decoration: none; }
 
 .bold {
-  font-family: "Public Sans Bold", sans-serif;
-  font-weight: bold; }
+  font-family: "Public Sans Bold", sans-serif; }
 
 /* List group */
 .list-number {
@@ -1894,7 +1893,8 @@ cwds-step-list li.list-open .hide {
 ul > span.nested-and-or {
   border-left: #ccc solid 4px;
   padding: 5px;
-  line-height: 2rem; }
+  line-height: 2rem;
+  font-size: 1.3rem; }
 
 cwds-step-list li .unstyled {
   border-left-width: 0 !important;
