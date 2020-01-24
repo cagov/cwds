@@ -1327,8 +1327,7 @@ a:hover {
   text-decoration: none; }
 
 .bold {
-  font-family: "Public Sans Bold", sans-serif;
-  font-weight: bold; }
+  font-family: "Public Sans Bold", sans-serif; }
 
 /* List group */
 .list-number {
@@ -1680,6 +1679,18 @@ li.list-group-item.alpha-footer {
   border-bottom: 0;
   border-top: 0; }
 
+/*----- Alerts -----*/
+.alert-warning {
+  color: #343a40;
+  background-color: #fffbf0;
+  background-color: #fffbf0;
+  border-left: 4px solid #ffc107;
+  border-radius: 0; }
+
+.bd-callout-warning {
+  border-left-color: #ffc107;
+  border-radius: 0; }
+
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {
   display: block; }
@@ -1894,7 +1905,8 @@ cwds-step-list li.list-open .hide {
 ul > span.nested-and-or {
   border-left: #ccc solid 4px;
   padding: 5px;
-  line-height: 2rem; }
+  line-height: 2rem;
+  font-size: 1.3rem; }
 
 cwds-step-list li .unstyled {
   border-left-width: 0 !important;
