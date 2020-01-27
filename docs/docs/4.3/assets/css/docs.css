@@ -1329,6 +1329,9 @@ a:hover {
 .bold {
   font-family: "Public Sans Bold", sans-serif; }
 
+strong {
+  font-family: "Public Sans Bold", sans-serif; }
+
 /* List group */
 .list-number {
   background: #000000;
