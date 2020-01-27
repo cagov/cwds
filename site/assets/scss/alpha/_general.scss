@@ -67,7 +67,8 @@ a:hover {
 }
 
 .list-group-item {
-  border-color: #cccccc;
+  	border-color: #cccccc;
+	cursor: pointer;
 }
 
 a.list-group-item-action {
@@ -496,11 +497,12 @@ li.list-group-item.alpha-footer {
 /*----- Alerts -----*/
 
 .alert-warning {
-    color: #343a40;
+	color: #000;
     background-color: #fffbf0;
-    background-color: #fffbf0;
+    border: 0;
     border-left: 4px solid #ffc107;
     border-radius: 0;
+    font-family: "Public Sans Bold", sans-serif;
 }
 
 .bd-callout-warning {
