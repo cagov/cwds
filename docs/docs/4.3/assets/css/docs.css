@@ -1348,8 +1348,7 @@ strong {
   line-height: normal; }
 
 .list-group-item {
-  border-color: #cccccc;
-  cursor: pointer; }
+  border-color: #cccccc; }
 
 a.list-group-item-action {
   color: #000000;
