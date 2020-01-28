@@ -1908,6 +1908,10 @@ cwds-step-list li.list-open .show {
 cwds-step-list li.list-open .hide {
   display: block; }
 
+cwds-step-list button.step-description {
+  background: transparent;
+  border: none; }
+
 .step-list-and-or {
   border-radius: 0 !important;
   width: -webkit-min-content !important;
