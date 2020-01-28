@@ -80,10 +80,16 @@ strong {
   	border-color: #cccccc;
 	//cursor: pointer;
 }
+.list-group-header {
+  	border-bottom: 0;
+	font-family: "Public Sans Bold", sans-serif;
+}
+
 
 a.list-group-item-action {
-  color: #000000;
-  text-decoration: none;
+  	color: #000000;
+  	text-decoration: none;
+	padding-left: 33px;
 }
 
 .list-group-item-action:hover, .list-group-item-action:hover, .list-group-item-action:focus {
@@ -94,10 +100,10 @@ a.list-group-item-action {
 }
 
 .list-checkmark li {
-			text-indent: -30px;
-			padding-left: 50px;
+	text-indent: -30px;
+	padding-left: 60px;
 			
-		}
+}
 
 /* Navbar */
 
