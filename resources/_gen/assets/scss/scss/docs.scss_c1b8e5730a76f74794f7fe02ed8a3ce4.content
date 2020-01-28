@@ -1289,7 +1289,8 @@ a.btn:visited, a:visited, a:hover {
 
 button.step-description {
   text-align: left;
-  padding-left: 0; }
+  padding-left: 0;
+  margin-left: -10px; }
 
 body {
   color: #000;
@@ -1320,6 +1321,10 @@ p, li, .list-group-item {
 
 a.list-group-item {
   padding: 20px; }
+
+.list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
 
 a, a:visited, a:hover {
   color: #0071bc; }
