@@ -1287,6 +1287,10 @@ a.btn:visited, a:visited, a:hover {
   background-color: #005279;
   border-color: #005279; }
 
+button.step-description {
+  text-align: left;
+  padding-left: 0; }
+
 body {
   color: #000;
   font-family: "Public Sans", sans-serif;
