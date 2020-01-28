@@ -1344,7 +1344,8 @@ strong {
   color: #ffffff;
   font-family: "Public Sans Bold", sans-serif;
   font-size: 1.2rem;
-  margin-right: 10px; }
+  margin-right: 10px;
+  line-height: normal; }
 
 .list-group-item {
   border-color: #cccccc;
