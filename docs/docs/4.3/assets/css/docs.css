@@ -1408,8 +1408,7 @@ hr {
 .card-header {
   padding: .25rem;
   margin-bottom: 0;
-  background-color: #f1f1f1;
-  border-bottom: 0; }
+  background-color: #f1f1f1; }
 
 .card {
   position: relative;
@@ -1843,6 +1842,14 @@ cwds-accordion .card-header .button {
 
 .accordion {
   margin-bottom: 20px; }
+
+.accordion-title {
+  padding: .5rem;
+  padding-left: 1rem;
+  font-family: "Public Sans Bold", sans-serif;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 0; }
 
 .accordion h2 {
   margin: 0;
