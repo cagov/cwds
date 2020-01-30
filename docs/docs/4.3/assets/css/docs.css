@@ -1875,13 +1875,13 @@ cwds-step-list li .details {
   overflow: hidden;
   transition: height .3s; }
 
-cwds-step-list li.list-group-item.lead.unstyled.list-group-item-action {
+cwds-step-list li.list-group-item.unstyled.list-group-item-action {
   cursor: pointer;
   border-left: solid #e8e8e8;
   border-left-width: 4px;
   margin-left: 10px; }
 
-cwds-step-list li.list-group-item.lead.unstyled.list-group-item-action.list-open {
+cwds-step-list li.list-group-item.unstyled.list-group-item-action.list-open {
   border-left: solid #015179;
   border-left-width: 4px; }
 
