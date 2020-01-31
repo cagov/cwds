@@ -1447,6 +1447,11 @@ hr {
   margin-top: 0;
   padding-top: 0; }
 
+.alert-secondary {
+  color: #000000;
+  background-color: #f1f1f1;
+  border-color: #f1f1f1; }
+
 /* Mods */
 .official, .footer, .alphabar {
   font-size: 1rem; }
