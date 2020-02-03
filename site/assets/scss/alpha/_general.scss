@@ -67,13 +67,21 @@ strong {
 
 .list-number {
   background: #000000;
-  border-color: #000000 !important;
-  border-width: 1px !important;
+  border-color: #000000;
+  border-width: 3px;
   color: #ffffff;
   font-family: "Public Sans Bold", sans-serif;
   font-size: 1.2rem;
   margin-right: 10px;
   line-height: normal;
+  position: relative;
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #cccccc;
+  text-align: center;
 }
 
 .list-group-item {

@@ -1346,13 +1346,21 @@ strong {
 /* List group */
 .list-number {
   background: #000000;
-  border-color: #000000 !important;
-  border-width: 1px !important;
+  border-color: #000000;
+  border-width: 3px;
   color: #ffffff;
   font-family: "Public Sans Bold", sans-serif;
   font-size: 1.2rem;
   margin-right: 10px;
-  line-height: normal; }
+  line-height: normal;
+  position: relative;
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #cccccc;
+  text-align: center; }
 
 .list-group-item {
   border-color: #cccccc; }
@@ -2010,17 +2018,6 @@ ul > li.list-group-item.and-or-lead.list-open {
   padding-left: 0;
   border-left: none !important;
   margin-left: 30px !important; }
-
-.list-number {
-  position: relative;
-  display: inline-block;
-  width: 33px;
-  height: 33px;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 50%;
-  border-color: #cccccc;
-  text-align: center; }
 
 /* Design System Specific CSS */
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {
