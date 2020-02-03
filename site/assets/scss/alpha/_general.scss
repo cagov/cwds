@@ -80,8 +80,17 @@ strong {
   height: 33px;
   border-style: solid;
   border-radius: 50%;
-  border-color: #cccccc;
   text-align: center;
+}
+
+.list-number-inverse {
+	border-style: solid;
+	border-radius: 50%;
+	border-color: #000;
+	color:#000;
+	background: #fff;
+	line-height: inherit;
+	border-width: 3px;
 }
 
 .list-group-item {
