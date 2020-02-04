@@ -1559,9 +1559,9 @@ hr {
 .jumbotron {
   background: #f1f1f1;
   border-bottom: 1px solid #000;
-  margin-bottom: 1.5rem;
-  padding-bottom: .5rem;
-  padding-top: 1rem; }
+  margin-bottom: 1.5%;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%; }
 
 .jumbotron, .jumbotron h1, .jumbotron .lead {
   color: #000; }
