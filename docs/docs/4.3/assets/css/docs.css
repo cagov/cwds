@@ -1581,6 +1581,9 @@ hr {
 .jumbotron-reverse {
   background: #fff; }
 
+.breadcrumb {
+  background-color: transparent; }
+
 /* Official */
 .official {
   background: #f1f1f1;
