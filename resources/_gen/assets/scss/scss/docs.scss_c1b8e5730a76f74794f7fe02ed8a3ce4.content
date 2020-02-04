@@ -1561,7 +1561,7 @@ hr {
   border-bottom: 1px solid #000;
   margin-bottom: 1.5%;
   padding-bottom: 1.5%;
-  padding-top: 1.5%; }
+  padding-top: 2%; }
 
 .jumbotron, .jumbotron h1, .jumbotron .lead {
   color: #000; }
@@ -1582,7 +1582,8 @@ hr {
   background: #fff; }
 
 .breadcrumb {
-  background-color: transparent; }
+  background-color: transparent;
+  margin-top: -.5%; }
 
 /* Official */
 .official {
