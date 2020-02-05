@@ -326,7 +326,7 @@ hr {
 	background: #f1f1f1;
 	border-bottom: 1px solid #ccc;
     margin-bottom: 2%;
-    padding-bottom: 1.7%;
+    padding-bottom: 1.2%;
     padding-top: 2%;
 }
 
@@ -356,6 +356,7 @@ hr {
 .breadcrumb {
 	background-color: transparent;
 	margin-top: -.5%;
+	padding:0;
 }
 
 /* Official */
@@ -533,10 +534,14 @@ li.active ul.nav.bd-sidenav {
 
 
 .alpha-footer {
-	background: #f1f1f1;
-	background-color: #f1f1f1;
+	background: rgb(241,241,241);
+	background: linear-gradient(180deg, rgba(241,241,241,1) 30%, rgba(255,255,255,1) 100%);
 	border-top: 1px solid #ccc;
 	padding-bottom: 50px;
+}
+
+ul .alpha-footer {
+    background: transparent;
 }
 
 li.list-group-item.alpha-footer {
