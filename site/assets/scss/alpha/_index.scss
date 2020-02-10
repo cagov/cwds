@@ -4,31 +4,6 @@
 @import 'general';
 @import 'accordion';
 @import 'stepbystep';
+@import 'blurple';
 
-
-/* Design System Specific CSS */
-
-.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {
-	text-decoration: none !important;
-}
-
-.navbar img {
-  width: auto;
-  height: auto;
-  max-width: 30px;
-  max-height: 50px;
-}
-
-.card .btn-link {
-  font-family: "Public Sans", sans-serif;
-  font-size: 18px;
-  color: #000;
-  background-color: transparent;
-}
-
-.docs-brand {
-	background-size: 8%;
-	
-	
-}
 

@@ -1246,8 +1246,8 @@ a.btn-dark {
 
 a.btn-dark:hover {
   color: #fff;
-  background-color: #0071bc;
-  background: #0071bc; }
+  background-color: #004abc;
+  background: #004abc; }
 
 a.btn {
   background: #000;
@@ -1260,8 +1260,8 @@ a.btn {
 
 a.btn:hover {
   color: #fff;
-  background-color: #0071bc;
-  background: #0071bc; }
+  background-color: #004abc;
+  background: #004abc; }
 
 a.btn:visited, a:visited, a:hover {
   color: #fff; }
@@ -1278,14 +1278,17 @@ a.btn:visited, a:visited, a:hover {
   border-color: #fff; }
 
 .btn-primary:hover {
-  background-color: #0071bc;
-  border-color: #0071bc;
+  background-color: #004abc;
+  border-color: #004abc;
   color: #fff; }
+
+.btn-dark:hover {
+  background: #004abc !important; }
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #0071bc;
-  border-color: #0071bc; }
+  background-color: #004abc;
+  border-color: #004abc; }
 
 button.step-description {
   text-align: left;
@@ -1293,6 +1296,23 @@ button.step-description {
   margin-left: -10px;
   font-family: "Public Sans Bold", sans-serif;
   font-size: 1.4rem; }
+
+.btn-bd-primary:hover, .btn-bd-primary:active {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  background: #000; }
+
+.search-btn {
+  border: 5px #000 solid;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background: #000; }
+
+.search-btn:hover {
+  box-shadow: transparent;
+  border: 5px #004abc solid;
+  background: #004abc; }
 
 body {
   color: #000;
@@ -1329,13 +1349,30 @@ a.list-group-item {
   border-top-right-radius: 0; }
 
 a, a:visited, a:hover {
-  color: #0071bc; }
+  color: #004abc; }
 
 a, a:visited {
   text-decoration: underline; }
 
 a:hover {
   text-decoration: none; }
+
+/* Action Link */
+.action-link {
+  color: #004abc;
+  background: #F5F9FF;
+  padding: .5rem;
+  padding-left: 1.75rem;
+  font-size: larger;
+  text-decoration: none;
+  border-bottom: 2px solid #004abc; }
+
+.action-link, a.action-link::before {
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMnB4IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA5IDEyIiB3aWR0aD0iOXB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PHRpdGxlLz48ZGVzYy8+PGRlZnMvPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiPjxnIGZpbGw9IiMwMDAwMDAiIGlkPSJDb3JlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjYwLjAwMDAwMCwgLTkwLjAwMDAwMCkiPjxnIGlkPSJjaGV2cm9uLXJpZ2h0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNjAuNTAwMDAwLCA5MC4wMDAwMDApIj48cGF0aCBkPSJNMSwwIEwtMC40LDEuNCBMNC4yLDYgTC0wLjQsMTAuNiBMMSwxMiBMNyw2IEwxLDAgWiIgaWQ9IlNoYXBlIi8+PC9nPjwvZz48L2c+PC9zdmc+");
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position-x: .4rem;
+  background-position-y: center; }
 
 .bold {
   font-family: "Public Sans Bold", sans-serif; }
@@ -1360,7 +1397,8 @@ strong {
   border-style: solid;
   border-radius: 50%;
   text-align: center;
-  line-height: inherit; }
+  line-height: inherit;
+  text-indent: 0; }
 
 .list-number-inverse {
   border-style: solid;
@@ -1534,8 +1572,8 @@ hr {
   background-image: url("https://alpha.ca.gov/img/ca-light.png"); }
 
 .navbar-inverse, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-  background-color: #000;
-  border-color: #000; }
+  background: #0f1e6b;
+  background: linear-gradient(80deg, #0f1e6b 0%, #170f6b 100%); }
 
 .navbar-inverse .navbar-toggle {
   border-color: #ffffff; }
@@ -1565,6 +1603,11 @@ hr {
 
 .jumbotron, .jumbotron h1, .jumbotron .lead {
   color: #000; }
+
+.jumbotron.alpha {
+  background: #0f1e6b;
+  background: linear-gradient(80deg, #0f1e6b 0%, #170f6b 100%);
+  color: #fff; }
 
 .jumbotron h1 {
   font-size: 2.3rem; }
@@ -1698,24 +1741,6 @@ hr {
 li.active ul.nav.bd-sidenav {
   display: block; }
 
-/* Temporary CSS Classes Pre-SCSS*/
-.btn-bd-primary:hover, .btn-bd-primary:active {
-  color: #fff;
-  background-color: #000;
-  border-color: #000;
-  background: #000; }
-
-.search-btn {
-  border: 5px #015179 solid;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  background: #015179; }
-
-.search-btn:hover {
-  border: 5px #343a40 solid;
-  background: #343a40;
-  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }
-
 .text-primary {
   color: #212527 !important; }
 
@@ -1744,6 +1769,11 @@ li.list-group-item.alpha-footer {
 .bd-callout-warning {
   border-left-color: #ffc107;
   border-radius: 0; }
+
+.alert-primary {
+  color: #ffffff;
+  background-color: #0f1e6b;
+  border-color: #f1f1f1; }
 
 /* fix bootstrap nav */
 li.active ul.nav.bd-sidenav {
@@ -1828,7 +1858,7 @@ figcaption {
 
 a.list-group-item.list-group-item-action.lead {
   text-decoration: underline;
-  color: #0071bc; }
+  color: #004abc; }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
@@ -1936,13 +1966,13 @@ cwds-step-list li .unstyled {
 .show {
   float: right;
   font-size: 15px;
-  color: #0071bc;
+  color: #004abc;
   text-decoration: underline; }
 
 .hide {
   float: right;
   font-size: 15px;
-  color: #0071bc;
+  color: #004abc;
   text-decoration: underline; }
 
 cwds-step-list li .hide {
@@ -2036,6 +2066,36 @@ ul > li.list-group-item.and-or-lead.list-open {
   border-left: none !important;
   margin-left: 30px !important; }
 
+/* Blurple Color Scheme */
+.navbar-inverse, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  background: #0f1e6b;
+  background: linear-gradient(80deg, #0f1e6b 0%, #170f6b 100%); }
+
+.jumbotron.alpha {
+  background: #0f1e6b;
+  background: linear-gradient(80deg, #0f1e6b 0%, #170f6b 100%);
+  color: #fff; }
+
+.alert-primary {
+  color: #ffffff;
+  background-color: #0f1e6b;
+  border-color: #f1f1f1; }
+
+a.btn {
+  background: #0f1e6b;
+  color: #fff;
+  border: 1px solid #f1f1f1;
+  text-decoration: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-family: "Public Sans ExtraBold", sans-serif; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #0f1e6b;
+  background: #0f1e6b;
+  border-color: #0f1e6b; }
+
 /* Design System Specific CSS */
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {
   text-decoration: none !important; }
@@ -2054,6 +2114,44 @@ ul > li.list-group-item.and-or-lead.list-open {
 
 .docs-brand {
   background-size: 8%; }
+
+.bd-sidenav-group-link {
+  color: #004abc; }
+
+a, a:visited, a:hover {
+  color: #004abc; }
+
+.btn-bd-primary:hover, .btn-bd-primary:active {
+  border-color: #004abc; }
+
+.navbar-inverse, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  background: #000;
+  background: #000; }
+
+.jumbotron.alpha {
+  background: #000;
+  background: #000;
+  color: #fff; }
+
+.alert-primary {
+  color: #ffffff;
+  background-color: #000;
+  border-color: #f1f1f1; }
+
+a.btn {
+  background: #000;
+  color: #fff;
+  border: 1px solid #f1f1f1;
+  text-decoration: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-family: "Public Sans ExtraBold", sans-serif; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #000;
+  background: #000;
+  border-color: #000; }
 
 /* NEW Background .chroma { background-color: #f0f0f0; } */
 /* NEW Error .chroma .err { } */
