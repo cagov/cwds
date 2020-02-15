@@ -13,7 +13,7 @@ cwds-step-list li.list-group-item.unstyled.list-group-item-action {
 }
 
 cwds-step-list li.list-group-item.unstyled.list-group-item-action.list-open {
-    border-left: solid #015179;
+    border-left: solid #004abc;
     border-left-width: 4px;
 }
 
@@ -23,10 +23,13 @@ cwds-step-list li.list-open .list-number {
     border-color: #000;
     text-align: center;
 	font-weight: 500 !important;
+	text-indent: 0;
 }
 
 cwds-step-list li .step-interior {
 	padding-left: 40px;
+	padding-left: 32px;
+    padding-top: 1rem;
 	display: block;
 	font-size: initial;
 	padding-bottom: 20px;
@@ -74,12 +77,15 @@ cwds-step-list li.list-open .hide {
 cwds-step-list button.step-description {
     background: transparent;
     border: none;
+    text-indent: -50px;
+    padding-left: 45px;
 }
 	  
 .step-list-and-or {	  
 	border-radius: 0!important;
     width: min-content!important;
     padding: 0px 5px;
+	min-width: 50px;
 }	 
 	  
 ul > span.nested-and-or {
@@ -165,6 +171,33 @@ ul > li.list-group-item.and-or-lead.list-open {
 	margin-left: 30px!important;
 }
 
+cwds-step-list li.list-group-item:focus-within {
+    outline: 2px solid #0257d5;
+    z-index: 10;  
+	background: rgba(215, 230, 252, 0.2);  
+}
+
+cwds-step-list li .step-interior {
+	padding-top:0;
+	padding-right: 10%;
+}
+
+.cwds-step-list {
+	margin-bottom: 3rem;
+	margin-bottom: 3rem;
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+
+cwds-step-list li .step-interior {
+    padding-left: 0;
+    padding-top: 1rem;
+}
+
+}
 
 	
 	  

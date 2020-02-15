@@ -1212,21 +1212,25 @@
 @font-face {
   font-family: "Public Sans Extra Bold";
   font-style: normal;
+  font-display: swap;
   src: url("/docs/cali/fonts/css/fonts/publicsans-extrabold-webfont.woff2") format("woff2"), url("/docs/cali/fonts/publicsans-extrabold-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: "Public Sans Bold";
   font-style: normal;
+  font-display: swap;
   src: url("/docs/cali/fonts/publicsans-bold-webfont.woff2") format("woff2"), url("/docs/cali/fonts/publicsans-bold-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: "Public Sans Light";
   font-style: normal;
+  font-display: swap;
   src: url("/docs/cali/fonts/publicsans-light-webfont.woff2") format("woff2"), url("/docs/cali/fonts/publicsans-light-webfont.woff") format("woff"); }
 
 @font-face {
   font-family: "Public Sans";
   font-style: normal;
+  font-display: swap;
   src: url("/docs/cali/fonts/publicsans-regular-webfont.woff2") format("woff2"), url("/docs/cali/fonts/publicsans-regular-webfont.woff") format("woff"); }
 
 a.btn {
@@ -1250,7 +1254,7 @@ a.btn-dark:hover {
   background: #004abc; }
 
 a.btn {
-  background: #000;
+  background: #0f1e6b;
   color: #fff;
   border: 1px solid #f1f1f1;
   text-decoration: none;
@@ -1268,9 +1272,9 @@ a.btn:visited, a:visited, a:hover {
 
 .btn-primary {
   color: #fff;
-  background-color: #000;
-  background: #000;
-  border-color: #000; }
+  background-color: #0f1e6b;
+  background: #0f1e6b;
+  border-color: #0f1e6b; }
 
 .btn-light {
   color: #000;
@@ -1281,9 +1285,6 @@ a.btn:visited, a:visited, a:hover {
   background-color: #004abc;
   border-color: #004abc;
   color: #fff; }
-
-.btn-dark:hover {
-  background: #004abc !important; }
 
 .btn-secondary:hover {
   color: #fff;
@@ -1304,15 +1305,36 @@ button.step-description {
   background: #000; }
 
 .search-btn {
-  border: 5px #000 solid;
+  border: 5px #015179 solid;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
-  background: #000; }
+  background: #015179; }
 
 .search-btn:hover {
-  box-shadow: transparent;
-  border: 5px #004abc solid;
-  background: #004abc; }
+  border: 5px #343a40 solid;
+  background: #343a40;
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }
+
+button:focus {
+  outline: none; }
+
+.btn:focus, .btn.focus {
+  color: #ffffff;
+  background-color: #0257d5;
+  border-color: #0257d5;
+  box-shadow: none; }
+
+.btn-light:focus, .btn-light.focus {
+  color: #ffffff;
+  background-color: #0257d5;
+  border-color: #0257d5;
+  box-shadow: none; }
+
+.btn-dark:focus, .btn-dark.focus {
+  color: #ffffff;
+  background-color: #0257d5;
+  border-color: #0257d5;
+  box-shadow: none; }
 
 body {
   color: #000;
@@ -1338,6 +1360,12 @@ h2 {
 h3 {
   padding-bottom: 10px; }
 
+th {
+  font-family: "Public Sans Bold", sans-serif; }
+
+.text-secondary {
+  color: #4F4F4F !important; }
+
 p, li, .list-group-item {
   font-size: auto !important; }
 
@@ -1357,15 +1385,19 @@ a, a:visited {
 a:hover {
   text-decoration: none; }
 
+:focus {
+  outline: 2px solid #004abc; }
+
 /* Action Link */
 .action-link {
   color: #004abc;
   background: #F5F9FF;
   padding: .5rem;
   padding-left: 1.75rem;
-  font-size: larger;
+  font-size: 1.2rem;
   text-decoration: none;
-  border-bottom: 2px solid #004abc; }
+  border-bottom: 2px solid #004abc;
+  line-height: 3rem; }
 
 .action-link, a.action-link::before {
   background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMnB4IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA5IDEyIiB3aWR0aD0iOXB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PHRpdGxlLz48ZGVzYy8+PGRlZnMvPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiPjxnIGZpbGw9IiMwMDAwMDAiIGlkPSJDb3JlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjYwLjAwMDAwMCwgLTkwLjAwMDAwMCkiPjxnIGlkPSJjaGV2cm9uLXJpZ2h0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNjAuNTAwMDAwLCA5MC4wMDAwMDApIj48cGF0aCBkPSJNMSwwIEwtMC40LDEuNCBMNC4yLDYgTC0wLjQsMTAuNiBMMSwxMiBMNyw2IEwxLDAgWiIgaWQ9IlNoYXBlIi8+PC9nPjwvZz48L2c+PC9zdmc+");
@@ -1373,6 +1405,11 @@ a:hover {
   background-repeat: no-repeat;
   background-position-x: .4rem;
   background-position-y: center; }
+
+a.action-link:hover {
+  border-color: #000;
+  color: #000;
+  background-color: #d5e6ff; }
 
 .bold {
   font-family: "Public Sans Bold", sans-serif; }
@@ -1439,7 +1476,9 @@ a.list-group-item-action {
   font-size: 1.1rem; }
 
 .alert-left {
-  border-left: 4px solid #000000; }
+  border-left: 4px solid #0f1e6b;
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
 
 sup {
   font-size: normal !important;
@@ -1451,7 +1490,8 @@ hr {
 
 /* Tables */
 .table {
-  color: #000000; }
+  color: #000000;
+  margin-bottom: 2rem; }
 
 .table .thead-dark th {
   background: #000000;
@@ -1461,11 +1501,16 @@ hr {
   background: #f1f1f1;
   color: #000000; }
 
+.table thead th {
+  background: #f1f1f1; }
+
 /* Card */
 .card-header {
   padding: .25rem;
   margin-bottom: 0;
-  background-color: #f1f1f1; }
+  background-color: #f1f1f1;
+  padding-right: 12%;
+  border: none; }
 
 .card {
   position: relative;
@@ -1569,11 +1614,11 @@ hr {
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 15%;
-  background-image: url("https://alpha.ca.gov/img/ca-light.png"); }
+  background-image: url("https://www.alpha.ca.gov/img/ca-light.png"); }
 
 .navbar-inverse, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
   background: #0f1e6b;
-  background: linear-gradient(80deg, #0f1e6b 0%, #170f6b 100%); }
+  background: linear-gradient(60deg, #0f1e6b 0%, #1f0f6b 70%); }
 
 .navbar-inverse .navbar-toggle {
   border-color: #ffffff; }
@@ -1596,7 +1641,7 @@ hr {
 /* Jumbotron */
 .jumbotron {
   background: #f1f1f1;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0;
   margin-bottom: 2%;
   padding-bottom: 1.2%;
   padding-top: 2%; }
@@ -1606,7 +1651,7 @@ hr {
 
 .jumbotron.alpha {
   background: #0f1e6b;
-  background: linear-gradient(80deg, #0f1e6b 0%, #170f6b 100%);
+  background: linear-gradient(60deg, #0f1e6b 0%, #1f0f6b 70%);
   color: #fff; }
 
 .jumbotron h1 {
@@ -1638,16 +1683,16 @@ hr {
   color: #000; }
 
 .official p {
-  background-image: url("https://alpha.ca.gov/img/ca-flag.png");
+  background-image: url("https://www.alpha.ca.gov/img/ca-flag.png");
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: contain;
   margin: 0;
-  padding: 0 0 0 50px; }
+  padding: 0 0 0 65px; }
 
 .nav-cali-bg {
   padding-left: 35px;
-  background-image: url("https://alpha.ca.gov/img/ca-light.png");
+  background-image: url("https://www.alpha.ca.gov/img/ca-light.png");
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 10%; }
@@ -1666,7 +1711,8 @@ hr {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #000;
+  background-color: #0f1e6b;
+  background: linear-gradient(60deg, #0f1e6b 0%, #1f0f6b 70%);
   z-index: 10; }
 
 .alphabar p {
@@ -1683,12 +1729,24 @@ hr {
   color: #fff;
   background: #000; }
 
+.form-control:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #0257d5;
+  color: #000; }
+
+form {
+  padding-bottom: 2rem; }
+
+.form-control {
+  margin-right: .50rem; }
+
 /* Footer */
 .footer {
   border-top: 1px solid #f1f1f1;
   background-color: #fff;
   margin-top: 50px;
-  padding-bottom: 70px;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
   padding-top: 50px; }
 
 .footer a, .footer a:visited, .footer a:hover, .footer {
@@ -1731,9 +1789,6 @@ hr {
   transition: color 0.3s ease; }
 
 /* bootstrap style utility classes */
-.d-none {
-  display: none; }
-
 .py-20 {
   padding: 20px 0; }
 
@@ -1747,8 +1802,12 @@ li.active ul.nav.bd-sidenav {
 .alpha-footer {
   background: #f1f1f1;
   background: linear-gradient(180deg, #f1f1f1 30%, white 100%);
-  border-top: 1px solid #ccc;
-  padding-bottom: 50px; }
+  border-top: 0; }
+
+.alpha-footer .container .list-group {
+  padding-left: 0;
+  margin-left: -.75rem;
+  padding-bottom: .75rem; }
 
 ul .alpha-footer {
   background: transparent; }
@@ -1756,6 +1815,13 @@ ul .alpha-footer {
 li.list-group-item.alpha-footer {
   border-bottom: 0;
   border-top: 0; }
+
+.list-group-item-action:focus {
+  outline: 2px solid #0257d5;
+  box-shadow: 0 0 0 0.2rem #fff; }
+
+li.list-group-item.alpha-footer {
+  padding-left: .75rem; }
 
 /*----- Alerts -----*/
 .alert-warning {
@@ -1800,16 +1866,10 @@ li.active ul.nav.bd-sidenav {
   margin-bottom: 20px; }
 
 /* --------- from Min Wage Page -------*/
-.d-none {
-  display: none; }
-
 .py-20 {
   padding: 20px 0; }
 
 /* --------- from Min Wage Page -------*/
-.d-none {
-  display: none; }
-
 .py-20 {
   padding: 20px 0; }
 
@@ -1820,6 +1880,9 @@ li.active ul.nav.bd-sidenav {
 /* minimum wage override */
 .wage-city-search label {
   justify-content: left; }
+
+label {
+  padding-bottom: .75rem; }
 
 /* Food Banks Map Fix */
 .mapboxgl-ctrl.mapboxgl-ctrl-attrib {
@@ -1860,20 +1923,33 @@ a.list-group-item.list-group-item-action.lead {
   text-decoration: underline;
   color: #004abc; }
 
+li .list-group-item.inner-list:focus-within {
+  outline: none; }
+
+li.list-group-item.unstyled.no-border {
+  outline: none; }
+
+li .action-link:focus-within {
+  outline: 2px solid #004abc; }
+
+.feedback {
+  margin-top: 2rem; }
+
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   .official p {
-    padding: 3px 0 3px 75px; } }
+    padding: 3px 0 3px 60px; } }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   .alphabar {
     font-size: .7em; }
   .alpha-footer {
-    padding-left: 20px; }
-  .official p {
-    padding: 0 0 0 65px;
-    background-size: contain; }
+    padding-left: 20px;
+    padding-top: 1rem; }
+  li.list-group-item.alpha-footer {
+    padding-bottom: 1rem;
+    padding-top: .5rem; }
   .one-column-fix {
     margin-top: -2px; }
   .card-body {
@@ -1911,7 +1987,8 @@ cwds-accordion .card-header .button {
   font-family: "Public Sans Bold", sans-serif;
   text-align: left;
   font-size: 1.5rem;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  color: #000; }
 
 .accordion h2 {
   margin: 0;
@@ -1942,7 +2019,7 @@ cwds-step-list li.list-group-item.unstyled.list-group-item-action {
   margin-left: 10px; }
 
 cwds-step-list li.list-group-item.unstyled.list-group-item-action.list-open {
-  border-left: solid #015179;
+  border-left: solid #004abc;
   border-left-width: 4px; }
 
 cwds-step-list li.list-open .list-number {
@@ -1950,10 +2027,13 @@ cwds-step-list li.list-open .list-number {
   border-radius: 50%;
   border-color: #000;
   text-align: center;
-  font-weight: 500 !important; }
+  font-weight: 500 !important;
+  text-indent: 0; }
 
 cwds-step-list li .step-interior {
   padding-left: 40px;
+  padding-left: 32px;
+  padding-top: 1rem;
   display: block;
   font-size: initial;
   padding-bottom: 20px; }
@@ -1989,14 +2069,17 @@ cwds-step-list li.list-open .hide {
 
 cwds-step-list button.step-description {
   background: transparent;
-  border: none; }
+  border: none;
+  text-indent: -50px;
+  padding-left: 45px; }
 
 .step-list-and-or {
   border-radius: 0 !important;
   width: -webkit-min-content !important;
   width: -moz-min-content !important;
   width: min-content !important;
-  padding: 0px 5px; }
+  padding: 0px 5px;
+  min-width: 50px; }
 
 ul > span.nested-and-or {
   border-left: #ccc solid 4px;
@@ -2066,36 +2149,26 @@ ul > li.list-group-item.and-or-lead.list-open {
   border-left: none !important;
   margin-left: 30px !important; }
 
+cwds-step-list li.list-group-item:focus-within {
+  outline: 2px solid #0257d5;
+  z-index: 10;
+  background: rgba(215, 230, 252, 0.2); }
+
+cwds-step-list li .step-interior {
+  padding-top: 0;
+  padding-right: 10%; }
+
+.cwds-step-list {
+  margin-bottom: 3rem;
+  margin-bottom: 3rem; }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  cwds-step-list li .step-interior {
+    padding-left: 0;
+    padding-top: 1rem; } }
+
 /* Blurple Color Scheme */
-.navbar-inverse, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-  background: #0f1e6b;
-  background: linear-gradient(80deg, #0f1e6b 0%, #170f6b 100%); }
-
-.jumbotron.alpha {
-  background: #0f1e6b;
-  background: linear-gradient(80deg, #0f1e6b 0%, #170f6b 100%);
-  color: #fff; }
-
-.alert-primary {
-  color: #ffffff;
-  background-color: #0f1e6b;
-  border-color: #f1f1f1; }
-
-a.btn {
-  background: #0f1e6b;
-  color: #fff;
-  border: 1px solid #f1f1f1;
-  text-decoration: none;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  font-family: "Public Sans ExtraBold", sans-serif; }
-
-.btn-primary {
-  color: #fff;
-  background-color: #0f1e6b;
-  background: #0f1e6b;
-  border-color: #0f1e6b; }
-
 /* Design System Specific CSS */
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited, a.navbar-brand, a.navbar-brand:visited {
   text-decoration: none !important; }

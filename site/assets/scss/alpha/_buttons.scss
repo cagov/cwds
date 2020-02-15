@@ -22,7 +22,7 @@ a.btn-dark:hover {
 }
 
 a.btn {
-  background: #000;
+  background: #0f1e6b;
   color: #fff;
   border: 1px solid #f1f1f1;
   text-decoration: none;
@@ -45,9 +45,9 @@ a.btn:visited, a:visited, a:hover {
 
 .btn-primary {
     color: #fff;
-    background-color: #000;
-	background: #000;
-    border-color: #000;
+    background-color: #0f1e6b;
+	background: #0f1e6b;
+    border-color: #0f1e6b;
 }
 
 .btn-light {
@@ -60,10 +60,6 @@ a.btn:visited, a:visited, a:hover {
     background-color: #004abc;
     border-color: #004abc;
 	color: #fff;
-}
-
-.btn-dark:hover {
-    background: #004abc!important;
 }
 
 .btn-secondary:hover {
@@ -80,7 +76,6 @@ button.step-description {
     font-size: 1.4rem;
 }
 
-
 .btn-bd-primary:hover, .btn-bd-primary:active {
     color: #fff;
     background-color: #000;
@@ -91,18 +86,43 @@ button.step-description {
 
 .search-btn {
 
-    border: 5px #000 solid;
+    border: 5px #015179 solid;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    background: #000;
+    background: #015179;
 }
 
 .search-btn:hover {
-	box-shadow: transparent;
-    border: 5px #004abc solid;
-	background: #004abc;
+
+  border: 5px #343a40 solid;
+	background: #343a40;
+	box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5)
   
 }
 
+button:focus {
+    outline: none;
+}
 
+.btn:focus, .btn.focus {
+    color: #ffffff;
+    background-color: #0257d5;
+    border-color: #0257d5;
+    box-shadow: none;
+}
+
+
+.btn-light:focus, .btn-light.focus {
+    color: #ffffff;
+    background-color: #0257d5;
+    border-color: #0257d5;
+    box-shadow: none;
+}
+
+.btn-dark:focus, .btn-dark.focus {
+    color: #ffffff;
+    background-color: #0257d5;
+    border-color: #0257d5;
+    box-shadow: none;
+}
 

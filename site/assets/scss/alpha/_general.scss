@@ -30,6 +30,17 @@ h3 {
   padding-bottom: 10px;
 }
 
+th {
+
+ font-family: "Public Sans Bold", sans-serif;
+	
+}
+
+.text-secondary {
+color: #4F4F4F!important;
+}
+
+
 p, li, .list-group-item {
   font-size: auto !important;
 }
@@ -56,6 +67,11 @@ a:hover {
 }
 
 
+:focus {
+    outline: 2px solid #004abc;
+}
+
+
 /* Action Link */
 
 .action-link {
@@ -63,9 +79,10 @@ a:hover {
     background: #F5F9FF;
 	padding: .5rem;
     padding-left: 1.75rem;
-    font-size: larger;  
+    font-size: 1.2rem;  
 	text-decoration: none;
     border-bottom: 2px solid #004abc;
+	line-height: 3rem;
 }
 
 
@@ -76,6 +93,13 @@ a:hover {
     background-position-x: .4rem;
     background-position-y: center;
 }
+
+a.action-link:hover {
+    border-color: #000;
+	color: #000;
+	background-color: #d5e6ff;
+}
+
 
 .bold {
     font-family: "Public Sans Bold", sans-serif;
@@ -157,7 +181,9 @@ a.list-group-item-action {
 }
 
 .alert-left {
-	border-left: 4px solid #000000;
+	border-left: 4px solid #0f1e6b;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
 }
 
 sup {
@@ -174,6 +200,7 @@ hr {
 
 .table {
   color: #000000;
+  margin-bottom: 2rem;
 }
 .table .thead-dark th {
   background: #000000;
@@ -184,12 +211,18 @@ hr {
   color: #000000;
 }
 
+.table thead th {
+    background: #f1f1f1;
+}
+
 /* Card */
 
 .card-header {
   padding: .25rem;
   margin-bottom: 0;
   background-color: #f1f1f1;
+  padding-right: 12%;
+  border: none;
 }
 
 .card {
@@ -308,35 +341,43 @@ hr {
   border-radius: 0;
   margin-bottom: 0;
 }
+
 .navbar img {
   margin-top: 8px;
   max-height: 35px;
 }
+
 .navbar-brand {
   font-family: 'Public Sans Bold', sans-serif;
   padding-left: 35px;
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 15%;
-  background-image: url('https://alpha.ca.gov/img/ca-light.png');
+  background-image: url('https://www.alpha.ca.gov/img/ca-light.png');
 }
+
 .navbar-inverse, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
 	background: #0f1e6b;
-    background: linear-gradient(80deg, #0f1e6b 0%, #170f6b 100%);
+    background: linear-gradient(60deg, #0f1e6b 0%, #1f0f6b 70%);
 }
+
 .navbar-inverse .navbar-toggle {
   border-color: #ffffff;
 }
+
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
   color: #ffffff;
 }
+
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
   background: #ffffff;
 }
+
 .navbar-header a, .navbar-header a:visited, .navbar-header a:hover {
   color: #ffffff;
   text-decoration: none;
 }
+
 .navbar img {
   width: 100%;
   height: auto;
@@ -345,10 +386,9 @@ hr {
 
 /* Jumbotron */
 
-
 .jumbotron {
 	background: #f1f1f1;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 0;
     margin-bottom: 2%;
     padding-bottom: 1.2%;
     padding-top: 2%;
@@ -360,7 +400,7 @@ hr {
 
 .jumbotron.alpha  {
 	background: #0f1e6b;
-    background: linear-gradient(80deg, #0f1e6b 0%, #170f6b 100%);
+    background: linear-gradient(60deg, #0f1e6b 0%, #1f0f6b 70%);
 	color: #fff;
 }
 
@@ -401,17 +441,17 @@ hr {
 }
 
 .official p {
-  background-image: url('https://alpha.ca.gov/img/ca-flag.png');
-	background-repeat: no-repeat;
-	background-position: 5px 50%;
-	background-size: contain;
-	margin: 0;
-  padding: 0 0 0 50px;
+  background-image: url('https://www.alpha.ca.gov/img/ca-flag.png');
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: contain;
+  margin: 0;
+  padding: 0 0 0 65px;
 }
 
 .nav-cali-bg {
   padding-left: 35px;
-  background-image: url('https://alpha.ca.gov/img/ca-light.png');
+  background-image: url('https://www.alpha.ca.gov/img/ca-light.png');
   background-repeat: no-repeat;
   background-position: 5px 50%;
   background-size: 10%;
@@ -434,7 +474,8 @@ hr {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #000;
+  background-color: #0f1e6b;
+  background: linear-gradient(60deg, #0f1e6b 0%, #1f0f6b 70%);
   z-index: 10;
 }
 
@@ -449,11 +490,26 @@ hr {
   color: #fff;
 }
 
+
 /* Forms */
 
 .btn-dark, .btn-dark:hover {
   color: #fff;
   background: #000;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #0257d5;
+    color: #000;
+}
+
+form {
+    padding-bottom: 2rem;
+}
+
+.form-control {
+    margin-right: .50rem;
 }
 
 /* Footer */
@@ -462,7 +518,8 @@ hr {
   border-top: 1px solid #f1f1f1;
   background-color: #fff;
   margin-top: 50px;
-  padding-bottom: 70px;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
   padding-top: 50px;
 }
 
@@ -533,9 +590,16 @@ li.active ul.nav.bd-sidenav {
 .alpha-footer {
 	background: rgb(241,241,241);
 	background: linear-gradient(180deg, rgba(241,241,241,1) 30%, rgba(255,255,255,1) 100%);
-	border-top: 1px solid #ccc;
-	padding-bottom: 50px;
+	border-top: 0;
+
 }
+
+.alpha-footer .container .list-group {
+    padding-left: 0;
+	margin-left: -.75rem;
+	padding-bottom: .75rem;
+}
+
 
 ul .alpha-footer {
     background: transparent;
@@ -545,6 +609,16 @@ li.list-group-item.alpha-footer {
 		border-bottom: 0;
 	    border-top: 0;
 }
+
+.list-group-item-action:focus { 
+    outline: 2px solid #0257d5; 
+	box-shadow: 0 0 0 0.2rem #fff;
+}
+
+li.list-group-item.alpha-footer {
+    padding-left: .75rem;
+}
+
 
 /*----- Alerts -----*/
 
@@ -627,6 +701,10 @@ li.active ul.nav.bd-sidenav {
   justify-content: left;
 }
 
+label {
+    padding-bottom: .75rem;
+}
+
 /* Food Banks Map Fix */
 .mapboxgl-ctrl.mapboxgl-ctrl-attrib {
     background-color: #fff;
@@ -676,13 +754,29 @@ a.list-group-item.list-group-item-action.lead {
 }
 
 
+li .list-group-item.inner-list:focus-within {
+    outline: none;
+}
+
+li.list-group-item.unstyled.no-border {
+    outline: none;
+}
+
+li .action-link:focus-within {
+    outline: 2px solid #004abc;
+}
+
+.feedback {
+	margin-top: 2rem;
+}
+
 
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
 
   .official p {
-    padding: 3px 0 3px 75px;
+    padding: 3px 0 3px 60px;
   }
 
 }
@@ -696,11 +790,12 @@ a.list-group-item.list-group-item-action.lead {
 
 .alpha-footer {
 	padding-left: 20px;
+	padding-top: 1rem;
 }
-
-.official p {
-	padding: 0 0 0 65px;
-	background-size: contain;
+	
+li.list-group-item.alpha-footer {
+    padding-bottom: 1rem;
+    padding-top: .5rem;
 }
 
 .one-column-fix {
