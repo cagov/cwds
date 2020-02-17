@@ -48,6 +48,7 @@ cwds-step-list li .unstyled {
     font-size: 15px;
     color: #004abc;
     text-decoration: underline;
+	margin-top: -.5rem;
 }
 	  
 .hide {
@@ -55,6 +56,7 @@ cwds-step-list li .unstyled {
     font-size: 15px;
     color: #004abc;
     text-decoration: underline;
+	margin-top: -.5rem;
 }
 	  
 cwds-step-list li .hide {
@@ -193,7 +195,7 @@ cwds-step-list li .step-interior {
 
 
 cwds-step-list li .step-interior {
-    padding-left: 0;
+    padding-right: 0;
     padding-top: 1rem;
 }
 

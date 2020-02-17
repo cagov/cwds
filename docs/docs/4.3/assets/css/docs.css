@@ -2104,13 +2104,15 @@ cwds-step-list li .unstyled {
   float: right;
   font-size: 15px;
   color: #004abc;
-  text-decoration: underline; }
+  text-decoration: underline;
+  margin-top: -.5rem; }
 
 .hide {
   float: right;
   font-size: 15px;
   color: #004abc;
-  text-decoration: underline; }
+  text-decoration: underline;
+  margin-top: -.5rem; }
 
 cwds-step-list li .hide {
   display: none; }
@@ -2222,7 +2224,7 @@ cwds-step-list li .step-interior {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   cwds-step-list li .step-interior {
-    padding-left: 0;
+    padding-right: 0;
     padding-top: 1rem; } }
 
 /* Blurple Color Scheme */
