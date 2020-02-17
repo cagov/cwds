@@ -650,9 +650,6 @@
   .btn-bd-light:focus {
     box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25); }
 
-button.card-header.accordion-alpha:focus {
-  outline: 2px solid #004abc; }
-
 .bd-callout {
   padding: 1.25rem;
   margin-top: 1.25rem;
@@ -1395,6 +1392,9 @@ button:focus {
   background-color: #0257d5;
   border-color: #0257d5;
   box-shadow: none; }
+
+button.card-header.accordion-alpha:focus {
+  outline: 2px solid #004abc; }
 
 body {
   color: #000;
