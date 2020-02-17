@@ -1561,6 +1561,9 @@ hr {
 .table thead th {
   background: #f1f1f1; }
 
+.card .table thead th {
+  background: transparent; }
+
 /* Card */
 .card-header {
   padding: .25rem;
