@@ -2006,7 +2006,8 @@ li .action-link:focus-within {
     font-size: .7em; }
   .alpha-footer {
     padding-left: 20px;
-    padding-top: 1rem; }
+    padding-top: 1rem;
+    padding-bottom: 0; }
   .container-fluid.jumbotron {
     padding-left: 0; }
   .container-fluid.jumbotron.alpha {
