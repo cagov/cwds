@@ -650,6 +650,9 @@
   .btn-bd-light:focus {
     box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25); }
 
+button.card-header.accordion-alpha:focus {
+  outline: 2px solid #004abc; }
+
 .bd-callout {
   padding: 1.25rem;
   margin-top: 1.25rem;
@@ -1515,6 +1518,9 @@ a.list-group-item-action {
   color: #000000;
   text-decoration: none; }
 
+.list-group-item-action {
+  color: #000; }
+
 .list-group-item-action:hover, .list-group-item-action:hover, .list-group-item-action:focus {
   z-index: 1;
   color: #000;
@@ -2006,7 +2012,8 @@ li .action-link:focus-within {
     font-size: .7em; }
   .alpha-footer {
     padding-left: 20px;
-    padding-top: 1rem; }
+    padding-top: 1rem;
+    padding-bottom: 0; }
   .container-fluid.jumbotron {
     padding-left: 0; }
   .container-fluid.jumbotron.alpha {
