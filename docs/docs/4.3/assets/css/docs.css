@@ -2160,7 +2160,9 @@ cwds-step-list li .unstyled {
   width: -moz-fit-content;
   width: fit-content;
   list-style-type: none;
-  background: none; }
+  background: none;
+  padding-left: 0;
+  padding-right: 0; }
 
 .list-group-item-action {
   color: #1e1f1f; }
