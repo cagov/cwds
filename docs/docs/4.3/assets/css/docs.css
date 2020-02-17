@@ -2007,6 +2007,10 @@ li .action-link:focus-within {
   .alpha-footer {
     padding-left: 20px;
     padding-top: 1rem; }
+  .container-fluid.jumbotron {
+    padding-left: 0; }
+  .container-fluid.jumbotron.alpha {
+    padding-left: 15px; }
   li.list-group-item.alpha-footer {
     padding-bottom: 1rem;
     padding-top: .5rem; }
